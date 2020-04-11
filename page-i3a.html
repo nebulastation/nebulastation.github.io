@@ -16,7 +16,7 @@
               <p>3 pieces as a key to my soul</p>
               <button onclick="toggleproject()"><p>CAGE PIECE</p></button>
        
-              <div id="cagepiece">
+              <div class="cagepiece">
               <p>Cage Piece
                 Steel, wood, latex paint
                 84"h x 40"d
@@ -42,25 +42,47 @@
 
             <div class="col-sm-12 col-md-6 col-lg-6" id="right">
               <p><img src="Images/i3a1.jpg" class="image" alt="Identity in 3 acts 1"></p>
-              <div id="cagepieceimages">
+              <div class="cagepiece">
                   <p><img src="Images/i3a2.jpg" class="image" alt="Identity in 3 acts 2"></p>
                   <p><img src="Images/i3a3.jpg" class="image" alt="Identity in 3 acts 3"></p>
                   <p><img src="Images/i3a4.jpg" class="image" alt="Identity in 3 acts 4"></p>
               </div>
-              <p><img src="Images/i3a5.jpg" class="image" alt="Identity in 3 acts 5"></p>
-              <p><img src="Images/i3a6.jpg" class="image" alt="Identity in 3 acts 6"></p>
-              <p><img src="Images/i3a7.jpg" class="image" alt="Identity in 3 acts 7"></p>
-              <div class="video-container"><iframe scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/391143066&color=%23f1eeec&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe></div>
-              <p><img src="Images/i3a8.png" class="image" alt="Identity in 3 acts 8"></p>
-              <div class="video-container"><iframe src="https://player.vimeo.com/video/304508287" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div>
-              <p><a href="index.html" title="Main page">Index</a></p>
+              <div id="parlourroomimages">
+                  <p><img src="Images/i3a5.jpg" class="image" alt="Identity in 3 acts 5"></p>
+                  <p><img src="Images/i3a6.jpg" class="image" alt="Identity in 3 acts 6"></p>
+                  <p><img src="Images/i3a7.jpg" class="image" alt="Identity in 3 acts 7"></p>
+                  <div class="video-container"><iframe scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/391143066&color=%23f1eeec&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe></div>
+              </div>
+              <div id="makeupimages">
+                  <p><img src="Images/i3a8.png" class="image" alt="Identity in 3 acts 8"></p>
+                  <div class="video-container"><iframe src="https://player.vimeo.com/video/304508287" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div>
+              </div>
+                  <p><a href="index.html" title="Main page">Index</a></p>
             </div>
         </div>
     </div>
   </body>
 
   <script>function toggleproject() {
-    var x = document.getElementById("cagepiece, cagepieceimages");
+    var x = document.getElementsByClassName("cagepiece");
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } else {
+      x.style.display = "none";
+    }
+  }
+
+  function toggleproject2() {
+    var x = document.getElementById("parlourroom, parlourroomimages");
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } else {
+      x.style.display = "none";
+    }
+  }
+
+  function toggleproject3() {
+    var x = document.getElementById("makeup, makeupimages");
     if (x.style.display === "none") {
       x.style.display = "block";
     } else {
