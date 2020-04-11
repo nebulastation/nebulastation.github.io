@@ -1,5 +1,5 @@
 function toggleproject() {
-    var x = document.getElementsByClassName("cagepiece");
+    var x = document.getElementsById("cagepiece");
     if (x.style.display === "none") {
       x.style.display = "block";
     } else {
