@@ -6,6 +6,17 @@
   <title>Identity in 3 acts</title>
   </head>
 
+  <script>function toggleproject() {
+    var x = document.getElementById("cagepiece");
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } else {
+      x.style.display = "none";
+    }
+  }
+
+</script>
+
   <body>
     <div class="pagecontent">
         <div class="row">
@@ -41,7 +52,7 @@
 
             <div class="col-sm-12 col-md-6 col-lg-6" id="right">
               <p><img src="Images/i3a1.jpg" class="image" alt="Identity in 3 acts 1"></p>
-              <div id="cagepieceimages">
+              <div id="cagepiece">
                   <p><img src="Images/i3a2.jpg" class="image" alt="Identity in 3 acts 2"></p>
                   <p><img src="Images/i3a3.jpg" class="image" alt="Identity in 3 acts 3"></p>
                   <p><img src="Images/i3a4.jpg" class="image" alt="Identity in 3 acts 4"></p>
@@ -62,31 +73,5 @@
     </div>
   </body>
 
-  <script>function toggleproject() {
-    var x = document.querySelectorAll("#cagepiece, #cagepieceimages");
-    if (x.style.display === "none") {
-      x.style.display = "block";
-    } else {
-      x.style.display = "none";
-    }
-  }
-
-  function toggleproject2() {
-    var x = document.getElementsByClassName("parlourroom");
-    if (x.style.display === "none") {
-      x.style.display = "block";
-    } else {
-      x.style.display = "none";
-    }
-  }
-
-  function toggleproject3() {
-    var x = document.getElementsByClassName("makeup");
-    if (x.style.display === "none") {
-      x.style.display = "block";
-    } else {
-      x.style.display = "none";
-    }
-  }
-</script>
+ 
 </html>
