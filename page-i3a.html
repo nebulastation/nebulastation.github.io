@@ -16,7 +16,7 @@
               <p>3 pieces as a key to my soul</p>
               <button onclick="toggleproject()"><p>CAGE PIECE</p></button>
        
-              <div class="cagepiece">
+              <div id="cagepiece">
               <p>Cage Piece
               <br>Steel, wood, latex paint
               <br>84"h x 40"d
@@ -41,7 +41,7 @@
 
             <div class="col-sm-12 col-md-6 col-lg-6" id="right">
               <p><img src="Images/i3a1.jpg" class="image" alt="Identity in 3 acts 1"></p>
-              <div class="cagepiece">
+              <div id="cagepieceimages">
                   <p><img src="Images/i3a2.jpg" class="image" alt="Identity in 3 acts 2"></p>
                   <p><img src="Images/i3a3.jpg" class="image" alt="Identity in 3 acts 3"></p>
                   <p><img src="Images/i3a4.jpg" class="image" alt="Identity in 3 acts 4"></p>
@@ -63,7 +63,7 @@
   </body>
 
   <script>function toggleproject() {
-    var x = document.getElementsByClassName("cagepiece");
+    var x = document.querySelectorAll("#cagepiece, #cagepieceimages");
     if (x.style.display === "none") {
       x.style.display = "block";
     } else {

@@ -105,6 +105,10 @@ hr{
     transform: translateX(1200%);
   }
 
-.cagepiece{
+#cagepiece{
+  display: none;
+}
+
+#cagepieceimages{
   display: none;
 }
