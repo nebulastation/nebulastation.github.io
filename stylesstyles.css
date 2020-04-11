@@ -104,3 +104,7 @@ hr{
     max-width: 3%;
     transform: translateX(1200%);
   }
+
+.cagepiece{
+  display: none;
+}
