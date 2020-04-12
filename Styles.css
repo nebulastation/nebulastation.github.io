@@ -54,6 +54,7 @@ a:hover{
     border-bottom: 1px solid rgba(12, 169, 0, 0.35);
 }
 
+@media (min-device-width: 768px) {
 .sidenav {
     height: 100%; /* Full-height: remove this if you want "auto" height */
     width: 200px; /* Set the width of the sidebar */
@@ -67,6 +68,7 @@ a:hover{
     text-align: center;
 
   }
+}
 
 .sidenav>p{
     font-size:1rem;
@@ -91,4 +93,3 @@ a:hover{
   .pageheading{
       font-size:1rem;
   }
-
