@@ -14,7 +14,7 @@ a {
     text-decoration: none;
 }
 
-a:hover {
+.pageheading:hover {
     text-decoration: none;
     background-color: #29F044 !important;
 }
