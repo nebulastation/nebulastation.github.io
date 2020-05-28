@@ -6,10 +6,14 @@ body {
 }
 
 a {
-    color: inherit;
+    color: #9098fa;
     text-decoration: none;
 }
 
 a:hover {
+    background-color: #93FF10 !important;
+}
+
+.pageheading a:hover {
     background-color: #93FF10 !important;
 }

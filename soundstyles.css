@@ -10,7 +10,7 @@ a {
     text-decoration: none;
 }
 
-.pageheading:hover {
+.pageheading a:hover {
     background-color: #3909FA !important;
 }
 
