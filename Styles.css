@@ -39,6 +39,7 @@ a{
 a:hover{
     text-decoration: none;
     color: #0ca900;
+    background: #99AAF4;
 }
 .projecttitle a{
     font-size: 0.9rem;
