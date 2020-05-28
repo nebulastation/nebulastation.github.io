@@ -93,3 +93,7 @@ a:hover{
   .pageheading{
       font-size:1rem;
   }
+
+  .pageheading a:hover {
+      background-color: #99AAF4;
+  }

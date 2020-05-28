@@ -9,10 +9,6 @@ body {
     margin: 0 auto;
 }
 
-body p {
-    font-family: 'M PLUS 1p', sans-serif;
-}
-
 a {
     color: inherit;
     text-decoration: none;
