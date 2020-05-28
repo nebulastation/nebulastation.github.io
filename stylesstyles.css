@@ -63,6 +63,10 @@ a{
 
 }
 
+a:hover {
+  background-color: #99AAF4 !important;
+}
+
 hr{
     height: 1px;
     background-image: linear-gradient(to right, rgba(12, 169, 0, 0.5) 60%, rgba(255,255,255,0) 0%);
