@@ -95,5 +95,5 @@ a:hover{
   }
 
   .pageheading a:hover {
-      background-color: #99AAF4;
+      background-color: #99AAF4 !important;
   }
