@@ -8,3 +8,7 @@ body {
 .container {
     margin: 0 auto;
 }
+
+body p {
+    font-family: 'Cormorant Garamond', serif;
+}
