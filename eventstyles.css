@@ -1,0 +1,6 @@
+body {
+    background: rgb(2,46,28);
+    background: linear-gradient(0deg, rgba(2,46,28,1) 0%, rgba(19,72,108,1) 100%);
+    font-family: 'Cormorant Garamond', serif;
+    color: #f4f5d0;
+}
