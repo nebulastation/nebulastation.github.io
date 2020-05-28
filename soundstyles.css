@@ -4,3 +4,13 @@ body {
     font-family: 'Almendra SC', serif;
     color: #d7f5f2;
 }
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: #3909FA !important;
+}
+
