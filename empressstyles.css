@@ -6,11 +6,11 @@ body {
     background-attachment: fixed !important;
 }
 
-@media (min-width: 1200px) {
+/* @media (min-width: 1200px) {
     .container{
-        max-width: 1200px;
+        max-width: 100%;
     }
-}
+} */
 
 h4 {
     font-family: 'Arial', sans serif;
@@ -33,6 +33,7 @@ hr{
 .container{
     margin: auto !important;
     padding: 0 !important;
+    max-width: 100%;
 }
 
 .row{
