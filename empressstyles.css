@@ -6,12 +6,6 @@ body {
     background-attachment: fixed !important;
 }
 
-/* @media (min-width: 1200px) {
-    .container{
-        max-width: 100%;
-    }
-} */
-
 h6 {
     font-family: 'Arial', sans serif;
 }
