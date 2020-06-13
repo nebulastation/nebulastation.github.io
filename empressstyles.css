@@ -21,8 +21,7 @@ hr{
 }
 
 .container{
-    margin-left: 10px !important;
-    margin-right: 10px !important;
+    margin: auto !important;
 }
 
 .row{
