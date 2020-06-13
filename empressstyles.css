@@ -3,12 +3,13 @@ body {
     background: radial-gradient(circle, #bbe0c9 27%, rgba(227,92,52,1) 60%, rgba(211,158,23,1) 100%) !important;
     font-family: 'Fondamento', cursive !important;
     color: #250c30 !important;
-    text-align: center;
+
 }
 
-.grid-container {
-    display: inline-grid;
-}
+.row{
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
 
 a {
     color: inherit;
