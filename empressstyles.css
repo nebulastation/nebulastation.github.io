@@ -6,8 +6,9 @@ body {
     background-attachment: fixed !important;
 }
 
-h6 {
+h2 {
     font-family: 'Arial', sans serif;
+    padding-top: 20px;
 }
 
 h1 {
