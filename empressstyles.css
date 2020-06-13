@@ -27,6 +27,7 @@ hr{
     background-repeat: repeat-x;
     border: none;
     margin-left:0;
+    color:#113311;
 }
 
 .row{
@@ -45,7 +46,7 @@ hr{
 }
 
 a {
-    color: inherit;
+    color:#113311;
     text-decoration: none;
 }
 
