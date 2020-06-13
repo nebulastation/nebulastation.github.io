@@ -6,6 +6,10 @@ body {
     background-attachment: fixed !important;
 }
 
+h2 {
+    font-family: 'Arial', sans serif;
+}
+
 .row{
     margin-top: 30px;
     margin-bottom: 30px;
