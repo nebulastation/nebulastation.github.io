@@ -9,6 +9,10 @@ body {
     margin: 0 auto;
 }
 
+.grid-container {
+    display: grid;
+}
+
 a {
     color: inherit;
     text-decoration: none;
