@@ -4,13 +4,17 @@ body {
     background: radial-gradient(circle, #bbe0c9 27%, rgb(233, 96, 55) 60%, rgba(211,158,23,1) 100%) !important;
     font-family: 'Fondamento', cursive !important;
     color: #250c30 !important;
-
+    background-attachment: fixed;
 }
 
 .row{
     margin-top: 30px;
     margin-bottom: 30px;
   }
+
+.container{
+    margin: 10px !important;
+}
 
 .video{
     text-align: center;
