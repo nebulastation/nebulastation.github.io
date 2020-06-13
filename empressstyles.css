@@ -1,3 +1,7 @@
+.container-fluid{
+    max-width: 1170px;
+}
+
 body {
     background: rgb(187,224,201) !important;
     background: radial-gradient(circle, #bbe0c9 27%, rgb(233, 96, 55) 60%, rgba(211,158,23,1) 100%) !important;
@@ -23,12 +27,6 @@ hr{
     background-repeat: repeat-x;
     border: none;
     margin-left:0;
-}
-
-.container{
-    margin: auto !important;
-    padding: 0 !important;
-    max-width: 100%;
 }
 
 .row{
