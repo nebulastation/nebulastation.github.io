@@ -5,12 +5,8 @@ body {
     color: #250c30;
 }
 
-.container {
-    margin: auto;
-}
-
 .grid-container {
-    display: grid;
+    display: inline-grid;
 }
 
 a {
