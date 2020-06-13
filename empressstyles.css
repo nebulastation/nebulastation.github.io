@@ -10,6 +10,16 @@ h3 {
     font-family: 'Arial', sans serif;
 }
 
+hr{
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(12, 169, 0, 0.5) 60%, rgba(255,255,255,0) 0%);
+    background-position: bottom;
+    background-size: 6px 1px;
+    background-repeat: repeat-x;
+    border: none;
+    margin-left:0;
+}
+
 .row{
     margin-top: 20px;
     margin-bottom: 0;
