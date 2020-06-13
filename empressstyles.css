@@ -8,7 +8,7 @@ body {
 
 @media (min-width: 1200px) {
     .container{
-        max-width: 1100px;
+        max-width: 1200px;
     }
 }
 
@@ -28,6 +28,7 @@ hr{
 
 .container{
     margin: auto !important;
+    padding: 0 !important;
 }
 
 .row{
@@ -57,4 +58,9 @@ a {
 
 p {
     font-family: "Times New Roman" !important;
+}
+
+#navvy{
+    color:#113311;
+    background: rgb(77, 96, 204);
 }
