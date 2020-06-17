@@ -2,20 +2,20 @@ body {
     /* background: rgb(214,238,194);
     background: linear-gradient(90deg, rgba(214,238,194,1) 0%, rgba(204,245,223,1) 100%);
     color: #0e3632; */
-    color: #88900e;
+    color: #32b95a;
     font-size: 2.0rem;
     background: #000000;
-    font-family: "mramorregular", "Serif";
+    font-family: 'Fondamento', cursive;
 }
 
-@font-face {
+/* @font-face {
     font-family: 'mramorregular';
     src: url('Images/mramor_regular-webfont.woff2') format('woff2'),
          url('Images/mramor_regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
-}
+} */
 
 /* @font-face {
     font-family: Mramor; 
