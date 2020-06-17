@@ -8,6 +8,12 @@ body {
     font-family: "Adieu";
 }
 
+@font-face {font-family: "Adieu";
+    url("http://db.onlinewebfonts.com/t/48bf7ee22e075d47a9bfed0ea652def0.woff2") format("woff2"), /* chrome firefox */
+    url("http://db.onlinewebfonts.com/t/48bf7ee22e075d47a9bfed0ea652def0.woff") format("woff"), /* chrome firefox */
+    url("http://db.onlinewebfonts.com/t/48bf7ee22e075d47a9bfed0ea652def0.ttf") format("truetype"), /* chrome firefox opera Safari, Android, iOS 4.2+*/
+}
+
 /* @font-face {
     font-family: Mramor; 
     src: url('Images/mramor.otf');
