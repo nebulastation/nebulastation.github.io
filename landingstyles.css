@@ -14,3 +14,7 @@ a {
 a:hover {
     background-color: #00ffcc;
 }
+
+.circle {
+    margin-left: 50px;
+}
