@@ -5,12 +5,13 @@ body {
     color: #88900e;
     font-size: 2.0rem;
     background: #000000;
+    font-family: "Adieu";
 }
 
-@font-face {
+/* @font-face {
     font-family: Mramor; 
     src: url('Images/mramor.otf');
- } 
+ }  */
 
 p {
     padding: 0;
