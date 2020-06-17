@@ -4,22 +4,9 @@ body {
     color: #0e3632; */
     color: #7f9216;
     background: #000000;
+    font-size: 1.5rem;
     font-family: 'Fondamento', cursive;
 }
-
-/* @font-face {
-    font-family: 'mramorregular';
-    src: url('Images/mramor_regular-webfont.woff2') format('woff2'),
-         url('Images/mramor_regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-} */
-
-/* @font-face {
-    font-family: Mramor; 
-    src: url('Images/mramor.otf');
- }  */
 
 p {
     padding: 0;
