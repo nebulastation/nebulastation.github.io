@@ -1,7 +1,9 @@
 body {
-    background: rgb(214,238,194);
+    /* background: rgb(214,238,194);
     background: linear-gradient(90deg, rgba(214,238,194,1) 0%, rgba(204,245,223,1) 100%);
-    color: #0e3632;
+    color: #0e3632; */
+    color: #c8ecd1;
+    background: #000000;
 }
 
 a {
