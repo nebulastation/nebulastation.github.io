@@ -240,7 +240,15 @@
       </div>
     </div> 
 
-      <div class="row row-pix">
+    <div class="row row-pix">
+        <img class="mySlides img-responsive" style="width:100%" src="Images/yf1.jpg">
+        <img class="mySlides img-responsive" style="width:100%" src="Images/yf2.jpg">
+        <img class="mySlides img-responsive" style="width:100%" src="Images/yf3.jpg">
+        <img class="mySlides img-responsive" style="width:100%" src="Images/yf4.jpg">
+        <img class="mySlides img-responsive" style="width:100%" src="Images/yf5.jpg">
+    </div>
+
+      <!-- <div class="row row-pix">
         <div class="col-xs-12 col-md-4 col-lg-4">
           <img class="img-responsive" style="width:100%" src = "Images/yf1.jpg">
         </div>
@@ -258,9 +266,26 @@
         <div class="col-xs-12 col-md-4 col-lg-4">
           <img class="img-responsive" style="width:100%" src = "Images/yf5.jpg">
         </div>
-      </div>
+      </div> -->
 
   </div>
+
+  <script>
+          var slideIndex = 0;
+      carousel();
+
+      function carousel() {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";
+        }
+        slideIndex++;
+        if (slideIndex > x.length) {slideIndex = 1}
+        x[slideIndex-1].style.display = "block";
+        setTimeout(carousel, 2000); // Change image every 2 seconds
+      }
+</script>
   </body>
 
 </html>
