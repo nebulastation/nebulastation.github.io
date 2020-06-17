@@ -5,13 +5,16 @@ body {
     color: #88900e;
     font-size: 2.0rem;
     background: #000000;
-    font-family: "Adieu";
+    font-family: "mramorregular", "Serif";
 }
 
-@font-face {font-family: "Adieu";
-    url("http://db.onlinewebfonts.com/t/48bf7ee22e075d47a9bfed0ea652def0.woff2") format("woff2"), /* chrome firefox */
-    url("http://db.onlinewebfonts.com/t/48bf7ee22e075d47a9bfed0ea652def0.woff") format("woff"), /* chrome firefox */
-    url("http://db.onlinewebfonts.com/t/48bf7ee22e075d47a9bfed0ea652def0.ttf") format("truetype"), /* chrome firefox opera Safari, Android, iOS 4.2+*/
+@font-face {
+    font-family: 'mramorregular';
+    src: url('Images/mramor_regular-webfont.woff2') format('woff2'),
+         url('Images/mramor_regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
 }
 
 /* @font-face {
