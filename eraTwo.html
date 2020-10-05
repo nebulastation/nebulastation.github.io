@@ -75,12 +75,12 @@
       <div class="col-xs-12 col-md-2 col-lg-2">
       </div>
       <div class="col-xs-12 col-md-2 col-lg-2">
-        <img class="img-responsive" style="width:125px" src = "Images/hum.png">
+        <img class="img-responsive" style="width:125px" src = "Images/hum.png" id = "bat">
       </div>
       <div class="col-xs-12 col-md-2 col-lg-2">
       </div>
       <div class="col-xs-12 col-md-2 col-lg-2">
-        <img class="img-responsive" style="width:120px" src = "Images/finch.png">
+        <img class="img-responsive" style="width:120px" src = "Images/finch.png" id = "strum">
       </div>
     </div>
 
@@ -88,12 +88,12 @@
       <div class="col-xs-12 col-md-4 col-lg-4">
       </div>
       <div class="col-xs-12 col-md-2 col-lg-2">
-        <img class="img-responsive" style="width:110px" src = "Images/kinglet.png">
+        <img class="img-responsive" style="width:110px" src = "Images/kinglet.png" id = "bum">
       </div>
       <div class="col-xs-12 col-md-2 col-lg-2">
       </div>
       <div class="col-xs-12 col-md-2 col-lg-2">
-        <img class="img-responsive" style="width:127px" src = "Images/hawk.png">
+        <img class="img-responsive" style="width:127px" src = "Images/hawk.png" id = "tarp">
       </div>
     </div>
 
@@ -289,40 +289,172 @@
 
       ball.onmousedown = function(event) {
 
-let shiftX = event.clientX - ball.getBoundingClientRect().left;
-let shiftY = event.clientY - ball.getBoundingClientRect().top;
+          let shiftX = event.clientX - ball.getBoundingClientRect().left;
+          let shiftY = event.clientY - ball.getBoundingClientRect().top;
 
-ball.style.position = 'absolute';
-ball.style.zIndex = 1000;
-document.body.append(ball);
+          ball.style.position = 'absolute';
+          ball.style.zIndex = 1000;
+          document.body.append(ball);
 
-moveAt(event.pageX, event.pageY);
+          moveAt(event.pageX, event.pageY);
 
-// moves the ball at (pageX, pageY) coordinates
-// taking initial shifts into account
-function moveAt(pageX, pageY) {
-  ball.style.left = pageX - shiftX + 'px';
-  ball.style.top = pageY - shiftY + 'px';
-}
+          // moves the ball at (pageX, pageY) coordinates
+          // taking initial shifts into account
+          function moveAt(pageX, pageY) {
+            ball.style.left = pageX - shiftX + 'px';
+            ball.style.top = pageY - shiftY + 'px';
+          }
 
-function onMouseMove(event) {
-  moveAt(event.pageX, event.pageY);
-}
+          function onMouseMove(event) {
+            moveAt(event.pageX, event.pageY);
+          }
 
-// move the ball on mousemove
-document.addEventListener('mousemove', onMouseMove);
+          // move the ball on mousemove
+          document.addEventListener('mousemove', onMouseMove);
 
-// drop the ball, remove unneeded handlers
-ball.onmouseup = function() {
-  document.removeEventListener('mousemove', onMouseMove);
-  ball.onmouseup = null;
-};
+          // drop the ball, remove unneeded handlers
+          ball.onmouseup = function() {
+            document.removeEventListener('mousemove', onMouseMove);
+            ball.onmouseup = null;
+          };
 
-};
+          };
 
-ball.ondragstart = function() {
-return false;
-};
+        ball.ondragstart = function() {
+        return false;
+        };
+
+bat.onmousedown = function(event) {
+
+        let shiftX = event.clientX - bat.getBoundingClientRect().left;
+        let shiftY = event.clientY - bat.getBoundingClientRect().top;
+
+        bat.style.position = 'absolute';
+        bat.style.zIndex = 1000;
+        document.body.append(bat);
+
+        moveAt(event.pageX, event.pageY);
+
+        function moveAt(pageX, pageY) {
+          bat.style.left = pageX - shiftX + 'px';
+          bat.style.top = pageY - shiftY + 'px';
+        }
+
+        function onMouseMove(event) {
+          moveAt(event.pageX, event.pageY);
+        }
+
+        document.addEventListener('mousemove', onMouseMove);
+
+        bat.onmouseup = function() {
+          document.removeEventListener('mousemove', onMouseMove);
+          bat.onmouseup = null;
+        };
+
+        };
+
+        bat.ondragstart = function() {
+        return false;
+        };
+
+strum.onmousedown = function(event) {
+
+        let shiftX = event.clientX - strum.getBoundingClientRect().left;
+        let shiftY = event.clientY - strum.getBoundingClientRect().top;
+
+        strum.style.position = 'absolute';
+        strum.style.zIndex = 1000;
+        document.body.append(strum);
+
+        moveAt(event.pageX, event.pageY);
+
+        function moveAt(pageX, pageY) {
+          strum.style.left = pageX - shiftX + 'px';
+          strum.style.top = pageY - shiftY + 'px';
+        }
+
+        function onMouseMove(event) {
+          moveAt(event.pageX, event.pageY);
+        }
+
+        document.addEventListener('mousemove', onMouseMove);
+
+        strum.onmouseup = function() {
+          document.removeEventListener('mousemove', onMouseMove);
+          strum.onmouseup = null;
+        };
+
+        };
+
+        strum.ondragstart = function() {
+        return false;
+        };
+
+bum.onmousedown = function(event) {
+
+        let shiftX = event.clientX - bum.getBoundingClientRect().left;
+        let shiftY = event.clientY - bum.getBoundingClientRect().top;
+
+        bum.style.position = 'absolute';
+        bum.style.zIndex = 1000;
+        document.body.append(bum);
+
+        moveAt(event.pageX, event.pageY);
+
+        function moveAt(pageX, pageY) {
+          bum.style.left = pageX - shiftX + 'px';
+          bum.style.top = pageY - shiftY + 'px';
+        }
+
+        function onMouseMove(event) {
+          moveAt(event.pageX, event.pageY);
+        }
+
+        document.addEventListener('mousemove', onMouseMove);
+
+        bum.onmouseup = function() {
+          document.removeEventListener('mousemove', onMouseMove);
+          bum.onmouseup = null;
+        };
+
+        };
+
+        bum.ondragstart = function() {
+        return false;
+        };
+
+tarp.onmousedown = function(event) {
+
+        let shiftX = event.clientX - tarp.getBoundingClientRect().left;
+        let shiftY = event.clientY - tarp.getBoundingClientRect().top;
+
+        tarp.style.position = 'absolute';
+        tarp.style.zIndex = 1000;
+        document.body.append(butarpm);
+
+        moveAt(event.pageX, event.pageY);
+
+        function moveAt(pageX, pageY) {
+          tarp.style.left = pageX - shiftX + 'px';
+          tarp.style.top = pageY - shiftY + 'px';
+        }
+
+        function onMouseMove(event) {
+          moveAt(event.pageX, event.pageY);
+        }
+
+        document.addEventListener('mousemove', onMouseMove);
+
+        tarp.onmouseup = function() {
+          document.removeEventListener('mousemove', onMouseMove);
+          tarp.onmouseup = null;
+        };
+
+        };
+
+        tarp.ondragstart = function() {
+        return false;
+        };
 
 </script>
   </body>
