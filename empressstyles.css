@@ -70,3 +70,7 @@ p {
     color:#113311;
     background: rgb(77, 96, 204);
 }
+
+#ball{
+    cursor: pointer;
+}

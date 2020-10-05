@@ -67,7 +67,7 @@
 <br>
     <div class="row row-pix">
       <div class="col-xs-12 col-md-2 col-lg-2">
-        <img class="img-responsive" style="width:110px" src = "Images/quail.png">
+        <img class="img-responsive" style="width:110px" src = "Images/quail.png" id = "ball">
       </div>
     </div>
      
@@ -287,19 +287,43 @@
         setTimeout(carousel, 2000); // Change image every 2 seconds
       }
 
-      function allowDrop(ev) {
-        ev.preventDefault();
-      }
+      ball.onmousedown = function(event) {
 
-      function drag(ev) {
-        ev.dataTransfer.setData("text", ev.target.id);
-      }
+let shiftX = event.clientX - ball.getBoundingClientRect().left;
+let shiftY = event.clientY - ball.getBoundingClientRect().top;
 
-      function drop(ev) {
-        ev.preventDefault();
-        var data = ev.dataTransfer.getData("text");
-        ev.target.appendChild(document.getElementById(data));
-      }
+ball.style.position = 'absolute';
+ball.style.zIndex = 1000;
+document.body.append(ball);
+
+moveAt(event.pageX, event.pageY);
+
+// moves the ball at (pageX, pageY) coordinates
+// taking initial shifts into account
+function moveAt(pageX, pageY) {
+  ball.style.left = pageX - shiftX + 'px';
+  ball.style.top = pageY - shiftY + 'px';
+}
+
+function onMouseMove(event) {
+  moveAt(event.pageX, event.pageY);
+}
+
+// move the ball on mousemove
+document.addEventListener('mousemove', onMouseMove);
+
+// drop the ball, remove unneeded handlers
+ball.onmouseup = function() {
+  document.removeEventListener('mousemove', onMouseMove);
+  ball.onmouseup = null;
+};
+
+};
+
+ball.ondragstart = function() {
+return false;
+};
+
 </script>
   </body>
 
