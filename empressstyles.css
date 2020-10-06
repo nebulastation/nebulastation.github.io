@@ -31,6 +31,10 @@ hr{
     color:#113311;
 }
 
+.column{
+    float: left;
+}
+
 .header{
     font-family: 'Arial', sans serif;
     font-size: 80px;
@@ -127,7 +131,7 @@ p {
     transform: translateX(-100%); 
     }
    }
-   
+
 #story {
     font-family: "Times New Roman";
     font-size: 1.5rem;
@@ -145,8 +149,4 @@ p {
 
 #fix{
     height: 400px;
-}
-
-#float{
-    display:float;
 }
