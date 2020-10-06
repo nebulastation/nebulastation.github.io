@@ -2,3 +2,8 @@ body {
     background:black;
 
 }
+
+img {
+    max-width: 50%;
+    height: auto;
+}
