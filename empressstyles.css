@@ -45,6 +45,8 @@ hr{
 	-webkit-text-fill-color: transparent;
     -webkit-animation: hue 10s infinite linear;
     animation: hue 10s infinite linear;
+    padding-top: 80px;
+    padding-bottom: 50px;
 }
 
 @keyframes hue {
@@ -103,4 +105,8 @@ p {
 
 #fix{
     height: 400px;
+}
+
+#doodle{
+    margin-left: 300px;
 }
