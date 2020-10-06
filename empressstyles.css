@@ -46,7 +46,7 @@ hr{
     -webkit-animation: hue 10s infinite linear;
     animation: hue 10s infinite linear;
     padding-top: 80px;
-    padding-bottom: 50px;
+    padding-bottom: 30px;
 }
 
 @keyframes hue {
