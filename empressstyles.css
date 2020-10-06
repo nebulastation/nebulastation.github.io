@@ -100,3 +100,7 @@ p {
 #fix{
     height: 400px;
 }
+
+#float{
+    display:float;
+}
