@@ -10,6 +10,14 @@ a {
     text-decoration: none;
 }
 
+p {
+    font-size: 18px;
+ }
+
+.pageheading a:hover {
+    background-color: #3909FA !important;
+}
+
 #myVideo {
     position: fixed;
     right: 0;
@@ -19,7 +27,6 @@ a {
     z-index: -100;
   }
 
-.pageheading a:hover {
-    background-color: #3909FA !important;
+#invite{
+    font-size: 100px;
 }
-
