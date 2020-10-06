@@ -1,6 +1,6 @@
 body {
     background:black;
-
+    font-family: 'Sansita Swashed', cursive;
 }
 
 img {
@@ -11,3 +11,7 @@ img {
     margin-right: auto;
     display: block;
 }
+
+a:hover {
+    background-color: #797979;
+  }
