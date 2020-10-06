@@ -35,12 +35,15 @@ hr{
     font-family: 'Arial', sans serif;
     font-size: 80px;
     background-image: -webkit-linear-gradient(92deg, #f35626, #feab3a);
-	-webkit-background-clip: text;
+	background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
 	-webkit-text-fill-color: transparent;
-	-webkit-animation: hue 10s infinite linear;
+    -webkit-animation: hue 10s infinite linear;
+    animation: hue 10s infinite linear;
 }
 
-@-webkit-keyframes hue {
+@keyframes hue {
   from {
     -webkit-filter: hue-rotate(0deg);
   }
