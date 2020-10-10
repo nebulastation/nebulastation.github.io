@@ -58,6 +58,10 @@ hr{
   }
 }
 
+.containercenter{
+    display: flex;
+    align-items: center;
+}
 
 .row{
     margin-top: 15px;
