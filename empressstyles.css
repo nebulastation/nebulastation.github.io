@@ -59,7 +59,8 @@ hr{
 }
 
 .containercenter{
-    margin: auto;
+    margin: 0 auto;
+    display: block;
 }
 
 .row{
