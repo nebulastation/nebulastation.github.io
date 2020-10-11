@@ -59,8 +59,7 @@ hr{
 }
 
 .containercenter{
-    display: flex;
-    align-items: center;
+    margin: auto;
 }
 
 .row{
