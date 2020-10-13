@@ -115,12 +115,16 @@ p {
     margin-left: 300px;
 }
 
+#doodlebird{
+    margin-left: 500px;
+}
+
 .example1 {
     height: 50px;  
     overflow: hidden;
     position: relative;
    }
-   .example1 .header {
+   .example1 h3 {
     font-size: 3em;
     color: blue;
     position: absolute;
