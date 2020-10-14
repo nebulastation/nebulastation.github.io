@@ -117,3 +117,7 @@ p {
 #doodlebird{
     margin-left: 500px;
 }
+
+#centeredvid{
+    margin: 0 auto;
+}
