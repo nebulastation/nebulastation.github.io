@@ -45,8 +45,8 @@ hr{
 	-webkit-text-fill-color: transparent;
     -webkit-animation: hue 10s infinite linear;
     animation: hue 10s infinite linear;
-    padding-top: 130px;
-    padding-bottom: 30px;
+    padding-top: 125px;
+    padding-bottom: 25px;
 }
 
 @keyframes hue {
