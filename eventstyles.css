@@ -17,3 +17,12 @@ a:hover {
 .pageheading a:hover {
     background-color: #93FF10 !important;
 }
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -100;
+  }
