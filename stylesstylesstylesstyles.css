@@ -1,5 +1,6 @@
 .pageheading{
     font-size:1rem;
+    background-color:aquamarine;
 }
 
 .pageheading a:hover {
@@ -17,5 +18,5 @@ body {
 
 .boundingbox {
     background: #9f8aac;
-    opacity: 0.8;
+    opacity: 0.9;
 }
