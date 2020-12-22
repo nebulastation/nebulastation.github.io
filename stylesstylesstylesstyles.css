@@ -47,3 +47,19 @@ body {
     left: 100px;
     top: 1100px;
 }
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left:0;
+    right: 0;
+    width:100%;
+    opacity:0;
+    transition: .5s ease;
+    background-color:#fff;
+  }
+  
+  .overlaybox:hover .overlay {
+    opacity: 0.4;
+  }
