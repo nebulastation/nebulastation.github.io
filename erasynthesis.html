@@ -2,22 +2,31 @@
 <html lang="en">
   <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
   <link rel="stylesheet" href="stylesstylesstylesstyles.css">
   <title>ERA SYNTHESIS</title>
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script>
+  $( function() {
+    $( ".draggable" ).draggable();
+  } );
+  </script>
   </head>
 
   <body>
       <div>
-        <img src="Images/soundtexmap.jpg" alt="sound textile map" width="43%">
+        <img src="Images/soundtexmap.jpg" class="draggable" alt="sound textile map" width="43%">
       </div>
       <div>
-        <img src="Images/actionreception.jpg" alt="action reception text" width="40%">
+        <img src="Images/actionreception.jpg" class="draggable" alt="action reception text" width="40%">
       </div>
       <div>
-        <img src="Images/nanosuittextoverlay.jpg" alt="action reception text" width="40%">
+        <img src="Images/nanosuittextoverlay.jpg" class="draggable" alt="action reception text" width="40%">
       </div>
       <div>
-         <img src="Images/guardianspirit.jpg" alt="guardian embroidery" width="40%">
+         <img src="Images/guardianspirit.jpg" class="draggable" alt="guardian embroidery" width="40%">
       </div>
 </body>
 
