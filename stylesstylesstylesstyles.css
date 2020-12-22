@@ -5,3 +5,7 @@
 .pageheading a:hover {
     background-color: #40c592;
 }
+
+body {
+    font-family: 'Almendra Display', cursive;
+}
