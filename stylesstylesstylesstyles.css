@@ -26,6 +26,24 @@ body {
 
 .guardianspirit {
     position:absolute;
-    left: 463px;
+    left: 340px;
     top: 130px;
+}
+
+.actionrecep{
+    position:absolute;
+    left: 751px;
+    top: 275px;
+}
+
+.soundtexmap{
+    position:absolute;
+    left: 718px;
+    top: 982px;
+}
+
+.nanosuit{
+    position:absolute;
+    left: 248px;
+    top: 865px;
 }
