@@ -1,3 +1,7 @@
+body{
+    background-color: #0a0a0a;
+}
+
 .pagecontent {
     margin: 0;
     overflow: hidden;
@@ -95,6 +99,7 @@ hr{
 .projectheaders{
     color: #0ca900;
     font-family: 'Almendra Display', cursive;
+    font-size: 2rem;
 }
 
 .container {
