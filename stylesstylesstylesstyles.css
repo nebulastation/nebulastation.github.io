@@ -8,4 +8,9 @@
 
 body {
     font-family: 'Almendra Display', cursive;
+    background-image: url("Images/patternbw.jpg");
+}
+
+.story {
+    font-family: 'VT323', monospace;
 }
