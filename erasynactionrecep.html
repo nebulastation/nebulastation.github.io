@@ -3,27 +3,33 @@
   <head>
   <meta charset="utf-8">
   <link rel="stylesheet" href="erasyndeeper.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Almendra+Display&display=swap" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script>
+  $( function() {
+    $( ".draggable" ).draggable();
+  } );
+  </script>
   <title>1. Touch Absence B</title>
   </head>
 
   <body>
-    <div class="pagecontent">
-        <div class="row">
-            <div class="col-sm-12 col-md-6 col-lg-6" id="left">
-                <div class="container"><a href="erasynthesis.html"><img src="Images/staricon.png" alt="main page"></a></div>
-                <p class="projectheaders">1. Touch Absence B</p>
-                <hr>
+    <p class="projectheaders">1. Touch Absence B</p>
+        <img src="Images/draft1.png" class="draggable" alt="pattern draft 1">
+        <img src="Images/draft2.png" class="draggable" alt="pattern draft 2">
+        <img src="Images/waveform1.png" class="draggable" alt="waveform 1">
+        <img src="Images/waveform2.png" class="draggable" alt="waveform 2">
+        <img src="Images/waveform3.png" class="draggable" alt="waveform 3">
 
-
-            </div>
-            <div class="col-sm-12 col-md-6 col-lg-6" id="right">
-                <p><img src="Images/lnr1.jpg" class="image" alt="Lover no reason installation view"></p>
-            </div>
-        </div>
-    </div>  
+        <video width="300" height="300" controls>
+          <source src="Images/gif1.mp4" class="draggable" type="video/mp4">
+        Your browser does not support the video tag.
+        </video>
   </body>
 </html>
