@@ -55,7 +55,7 @@ body p{
     font-size: 0.8rem;
     font-weight: 400;
     color: #27888b;
-    font-family: Courier, "Courier New", monospace, Courier, Icons /*!System*/;
+    font-family: 'VT323', monospace;
     font-style: normal;
     line-height: 1.3;
 }
