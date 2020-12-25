@@ -40,12 +40,12 @@ body{
   }
   
   #left {
-    text-align: left;
+    text-align: center;
     height:100%;
   }
 
   #center {
-    text-align: left;
+    text-align: center;
     height:100%;
   }
   
