@@ -15,6 +15,33 @@ body {
     background-image: url("Images/patternbw.jpg");
 }
 
+@media (min-device-width: 768px){
+    .guardianspirit {
+        position:absolute;
+        left: 34px;
+        top: 178px;
+    }
+    
+    .actionrecep{
+        position:absolute;
+        left: 751px;
+        top: 275px;
+    }
+    
+    .soundtexmap{
+        position:absolute;
+        left: 617px;
+        top: 1365px;
+    }
+    
+    .nanosuit{
+        position:absolute;
+        left: 49px;
+        top: 999px;
+    }
+}
+
+
 .story {
     font-family: 'VT323', monospace;
 }
@@ -24,7 +51,7 @@ body {
     opacity: 0.9;
 }
 
-.guardianspirit {
+/*.guardianspirit {
     position:absolute;
     left: 34px;
     top: 178px;
