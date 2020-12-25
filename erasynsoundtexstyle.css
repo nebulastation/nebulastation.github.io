@@ -126,5 +126,5 @@ hr{
     position: fixed;
     max-height:100%;
     max-width: 3%;
-    transform: translateX(1000%);
+    transform: translateX(700%);
   }
