@@ -40,18 +40,15 @@ body{
   }
   
   #left {
-    text-align: center;
     height:100%;
   }
 
   #center {
-    text-align: center;
     height:100%;
   }
   
   #right {
     height:100%;
-    text-align: center;
   }
 
 
@@ -66,12 +63,13 @@ body{
 }
 
 body p{
-    font-size: 1rem;
+    font-size: 1.3rem;
     font-weight: 400;
     color: #77b1b3;
     font-family: 'VT323', monospace;
     font-style: normal;
     line-height: 1.3;
+    text-align: left;
 }
 
 a{
@@ -114,6 +112,7 @@ hr{
     color: #0ca900;
     font-family: 'Almendra Display', cursive;
     font-size: 2rem;
+    text-align: center;
 }
 
 .container {
