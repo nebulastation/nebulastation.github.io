@@ -20,24 +20,46 @@ body {
         position:absolute;
         left: 34px;
         top: 178px;
+        width: 35rem;
     }
     
     .actionrecep{
         position:absolute;
         left: 751px;
         top: 275px;
+        width: 35rem;
     }
     
     .soundtexmap{
         position:absolute;
-        left: 617px;
+        left: 650px;
         top: 1365px;
+        width: 40rem;
     }
     
     .nanosuit{
         position:absolute;
         left: 49px;
         top: 999px;
+        width: 35rem;
+    }
+}
+
+@media (max-device-width: 768px){
+    .guardianspirit {
+        width: 100%;
+    }
+    
+    .actionrecep{
+        width: 100%;
+    }
+    
+    .soundtexmap{
+        width: 100%;
+    }
+    
+    .nanosuit{
+        width: 100%;
     }
 }
 
