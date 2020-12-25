@@ -24,8 +24,8 @@ body{
       position: absolute;
       top: 0px;
       bottom: 10px;
-      left: 31%;
-      width: 24%;
+      left: 33%;
+      width: 26%;
       overflow-y: scroll; 
     }
 
@@ -65,7 +65,7 @@ body{
 body p{
     font-size: 1.2rem;
     font-weight: 400;
-    color: #4c797a;
+    color: #385657;
     font-family: 'VT323', monospace;
     font-style: normal;
     line-height: 1.3;
