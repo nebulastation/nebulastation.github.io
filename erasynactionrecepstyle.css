@@ -71,7 +71,6 @@ hr{
   }
 
   .overlay {
-    position: relative;
     top: 0;
     bottom: 0;
     left: 0;
@@ -90,7 +89,6 @@ hr{
   .text {
     color: rgb(78, 233, 64);
     font-size: 20px;
-    position: relative;
     top: 50%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
