@@ -36,7 +36,7 @@ hr{
 }
 
 .header{
-    font-family: 'Arial', sans serif;
+    font-family: 'Chakra Petch', sans-serif;    
     font-size: 80px;
     background-image: -webkit-linear-gradient(92deg, #f35626, #feab3a);
 	background-clip: text;
@@ -126,6 +126,5 @@ p {
     border-radius: 25px;
         border: 2px solid #000000;
         padding: 20px;
-        width: 200px;
-        height: 150px;
+
 }
