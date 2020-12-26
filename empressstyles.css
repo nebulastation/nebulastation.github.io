@@ -121,3 +121,11 @@ p {
 #centeredvid{
     margin: 0 auto;
 }
+
+#bordertest{
+    border-radius: 25px;
+        border: 2px solid #000000;
+        padding: 20px;
+        width: 200px;
+        height: 150px;
+}
