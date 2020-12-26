@@ -118,7 +118,7 @@ hr{
   background-color: #0c0c0c;
 }
 
-.container2:hover .overlay {
+.container2:hover .overlay2 {
   opacity: 1;
 }
 
@@ -155,7 +155,7 @@ hr{
   background-color: #0c0c0c;
 }
 
-.container3:hover .overlay {
+.container3:hover .overlay3 {
   opacity: 1;
 }
 
