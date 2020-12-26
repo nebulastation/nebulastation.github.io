@@ -98,6 +98,81 @@ hr{
     transform: translate(-50%, -50%);
     text-align: center;
   }
+
+
+
+  .container2 {
+    position: relative;
+}
+
+.overlay2 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 12%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #0c0c0c;
+}
+
+.container2:hover .overlay {
+  opacity: 1;
+}
+
+.text2 {
+  position: absolute;
+  color: rgb(78, 233, 64);
+  font-size: 1rem;
+  font-family: 'VT323', monospace;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+
+
+.container3 {
+    position: relative;
+}
+
+.overlay2 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 30%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #0c0c0c;
+}
+
+.container3:hover .overlay {
+  opacity: 1;
+}
+
+.text3 {
+  position: absolute;
+  color: rgb(78, 233, 64);
+  font-size: 1rem;
+  font-family: 'VT323', monospace;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
   
   /*@media (min-device-width: 768px){
     #left {
