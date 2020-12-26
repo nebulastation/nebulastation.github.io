@@ -63,12 +63,7 @@ hr{
     transform: translateX(1200%);
   }
 
-  
-  .image{
-    display: block;
-    width: 100%;
-    height: auto;
-}
+
 
   .container {
       position: relative;
