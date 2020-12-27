@@ -125,3 +125,7 @@ body {
     max-width: 3%;
     transform: translateX(1200%);
   }
+
+  .caption{
+      color:rgb(101, 251, 71);
+  }
