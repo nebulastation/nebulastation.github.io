@@ -173,6 +173,78 @@ hr{
 }
 
 
+
+.container5 {
+  position: relative;
+}
+
+.overlay5 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 12%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #0c0c0c;
+}
+
+.container5:hover .overlay5 {
+  opacity: 1;
+}
+
+.text5 {
+  position: absolute;
+  color: rgb(78, 233, 64);
+  font-size: 1rem;
+  font-family: 'VT323', monospace;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+
+
+.container4 {
+  position: relative;
+}
+
+.overlay4 {
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+height: 100%;
+width: 50%;
+opacity: 0;
+transition: .5s ease;
+background-color: #0c0c0c;
+}
+
+.container4:hover .overlay4 {
+opacity: 1;
+}
+
+.text4 {
+position: absolute;
+color: rgb(78, 233, 64);
+font-size: 1rem;
+font-family: 'VT323', monospace;
+top: 50%;
+left: 50%;
+-webkit-transform: translate(-50%, -50%);
+-ms-transform: translate(-50%, -50%);
+transform: translate(-50%, -50%);
+text-align: center;
+}
+
   
   /*@media (min-device-width: 768px){
     #left {
