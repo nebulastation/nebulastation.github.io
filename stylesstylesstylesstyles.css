@@ -137,9 +137,8 @@ body {
 
   .caption{
       color:rgb(19, 34, 16);
-      font-weight:100;
-      background-color:rgb(155, 219, 203);
-      
+      font-family: 'Almendra Display', cursive;
+      font-size: 0.8rem;
   }
 
 
