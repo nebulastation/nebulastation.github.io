@@ -71,6 +71,7 @@ body {
 .boundingbox {
     background: #9f8aac;
     opacity: 0.9;
+    padding:10px;
 }
 
 /*.guardianspirit {
@@ -127,5 +128,5 @@ body {
   }
 
   .caption{
-      color:rgb(101, 251, 71);
+      color:rgb(19, 34, 16);
   }
