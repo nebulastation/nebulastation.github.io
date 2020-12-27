@@ -37,7 +37,7 @@ hr{
 
 .header{
     font-family: 'Chakra Petch', sans-serif;    
-    font-size: 80px;
+    font-size: 77px;
     background-image: -webkit-linear-gradient(92deg, #f35626, #feab3a);
 	background-clip: text;
     -webkit-background-clip: text;
@@ -46,7 +46,15 @@ hr{
     -webkit-animation: hue 10s infinite linear;
     animation: hue 10s infinite linear;
     padding-top: 5px;
-    padding-bottom: 35px;
+    padding-bottom: 20px;
+}
+
+.flock{
+    font-family: 'Chakra Petch', sans-serif;    
+    font-size: 47px;
+    color:#113311;
+    padding-top: 0px;
+    padding-bottom: 0px;
 }
 
 @keyframes hue {
@@ -89,8 +97,8 @@ p {
 
 #story {
     font-family: "Times New Roman";
-    font-size: 1.5rem;
-    color: #113311;
+    font-size: 1.3rem;
+    color: #000000;
 }
 
 #navvy{
