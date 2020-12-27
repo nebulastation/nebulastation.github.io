@@ -112,3 +112,16 @@ body {
   .overlaybox:hover .overlay {
     opacity: 0.4;
   }
+*/
+  .containers {
+    width: 100%;
+    height:auto;
+    padding-top:1%;
+  }
+
+  .containers img {
+    position: fixed;
+    max-height:100%;
+    max-width: 3%;
+    transform: translateX(1200%);
+  }
