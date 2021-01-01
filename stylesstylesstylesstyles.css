@@ -123,6 +123,7 @@ body {
   }
 */
   .containers {
+    display:block;
     width: 100%;
     height:auto;
     padding-top:1%;
@@ -130,8 +131,8 @@ body {
 
   .containers img {
     position: fixed;
-    max-height:100%;
-    max-width: 30%;
+    max-height:80%;
+    max-width: 18%;
    /* transform: translateX(500%);*/
   }
 
