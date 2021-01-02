@@ -68,9 +68,9 @@ hr{
 
   .container {
       position: relative;
+      text-align:center;
   }
 
 .container img {
   max-width: 82%;
-  text-align:center;
 }
