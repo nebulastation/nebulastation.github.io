@@ -118,7 +118,7 @@ p {
     margin-left: 500px;
 }
 
-.centeredvid{
+#centeredvid{
     margin: 0 auto;
 }
 
@@ -127,4 +127,28 @@ p {
         border: 2px solid #000000;
         padding: 20px;
 
+}
+
+#centeredvid2{
+    margin: 0 auto;
+}
+
+#centeredvid3{
+    margin: 0 auto;
+}
+
+#centeredvid4{
+    margin: 0 auto;
+}
+
+#centeredvid5{
+    margin: 0 auto;
+}
+
+#centeredvid6{
+    margin: 0 auto;
+}
+
+#centeredvid7{
+    margin: 0 auto;
 }
