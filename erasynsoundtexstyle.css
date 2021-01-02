@@ -24,7 +24,7 @@ body{
       position: absolute;
       top: 0px;
       bottom: 10px;
-      left: 32px;
+      left: 32%;
       width: 29%;
       overflow-y: scroll; 
     }
