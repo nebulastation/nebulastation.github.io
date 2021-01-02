@@ -81,6 +81,11 @@ hr{
     margin: auto;
 }
 
+#wordplay{
+    margin: 0 auto;
+    text-align:center;
+}
+
 a {
     color:#113311;
     text-decoration: none;
@@ -126,12 +131,6 @@ p {
     border-radius: 25px;
         border: 2px solid #000000;
         padding: 20px;
-}
-
-
-#wordplay{
-    margin: 0 auto;
-    text-align:center;
 }
 
 /*
