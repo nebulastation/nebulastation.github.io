@@ -120,16 +120,15 @@ p {
 
 #centeredvid{
     margin: 0 auto;
-    text-align:center;
 }
 
 .bordertest{
     border-radius: 25px;
         border: 2px solid #000000;
         padding: 20px;
-
 }
 
+/*
 #centeredvid2{
     margin: 0 auto;
     text-align:center;
