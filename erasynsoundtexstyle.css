@@ -127,3 +127,8 @@ hr{
     max-width: 3%;
     transform: translateX(755%);
   }
+
+  .sampleheading {
+    font-size: 1.4rem;
+    color:rgb(55, 98, 12);
+  }
