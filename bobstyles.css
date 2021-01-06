@@ -1,5 +1,7 @@
 body {
-    background-image: url("Images/bobbackground.jpg");
+    background-image: url(bobbackground.jpg);
+    background-position: center top;
+    background-size: 100% auto;
     font-family: 'Xanh Mono', monospace;
     color:rgb(163, 240, 214);
 }
