@@ -1,9 +1,4 @@
-body {
-    background-image: url(bobbackground.jpg);
-    background-position: center top;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 100% auto;
+p {
     font-family: 'Xanh Mono', monospace;
     color:rgb(163, 240, 214);
 }
