@@ -1,0 +1,44 @@
+body {
+
+        background-image: url("sky.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+
+    font-family: 'Almendra SC', serif;
+    color: #426d7a;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+p {
+    font-size: 18px;
+ }
+
+.pageheading a:hover {
+    background-color: #3909FA !important;
+}
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -100;
+  }
+
+#invite{
+    font-size: 100px;
+}
+
+.centered{
+    text-align:center;
+    margin:auto;
+}
+
+#portal{
+    font-size: 30px;
+}
