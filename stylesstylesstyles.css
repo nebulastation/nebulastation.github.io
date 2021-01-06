@@ -1,6 +1,6 @@
 body {
     background:black;
-    font-family: 'Courier New', monospace;
+    font-family: 'Xanh Mono', monospace;
     color: #8e998f;
 }
 
@@ -12,6 +12,11 @@ img {
     margin-left: auto;
     margin-right: auto;
     display: block;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
 }
 
 a:hover {
