@@ -1,3 +1,9 @@
 body {
     background-image: url("Images/bobbackground.jpg");
+    font-family: 'Xanh Mono', monospace;
+    color:rgb(163, 240, 214);
+}
+
+a:hover {
+    color:black;
 }
