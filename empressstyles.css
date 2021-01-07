@@ -49,6 +49,10 @@ hr{
     padding-bottom: 10px;
 }
 
+.captions{
+    font-size:0.7rem;
+}
+
 .flock{
     font-family: 'Chakra Petch', sans-serif;    
     font-size: 47px;
