@@ -17,10 +17,6 @@ p {
     color:rgb(35, 46, 42);
  }
 
-.container{
-    margin:auto;
-}
-
 .pageheading a:hover {
     background-color: #3909FA !important;
 }
