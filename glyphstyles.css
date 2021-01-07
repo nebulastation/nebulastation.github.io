@@ -19,7 +19,10 @@ p {
 
 .container{
     margin:auto;
-    text-align:center;
+}
+
+.pageheading {
+    font-family: 'Xanh Mono', monospace;
 }
 
 .pageheading a:hover {
@@ -36,5 +39,6 @@ p {
   }
 
 #invite{
+    font-family: 'Xanh Mono', monospace;
     font-size: 75px;
 }
