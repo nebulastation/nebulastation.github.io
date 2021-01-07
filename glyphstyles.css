@@ -21,10 +21,6 @@ p {
     margin:auto;
 }
 
-.pageheading {
-    font-family: 'Xanh Mono', monospace;
-}
-
 .pageheading a:hover {
     background-color: #3909FA !important;
 }
@@ -39,6 +35,5 @@ p {
   }
 
 #invite{
-    font-family: 'Xanh Mono', monospace;
     font-size: 75px;
 }
