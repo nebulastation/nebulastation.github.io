@@ -37,7 +37,9 @@ p {
 
 .centered{
     text-align:center;
-    margin:auto;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:0px;
 }
 
 #portal{
