@@ -1,0 +1,19 @@
+body {
+ background-image: url("Images/dance.png");
+ background-color: #182025;
+ font-family: 'Xanh Mono', monospace;
+ color:rgb(111, 230, 164);
+}
+
+.boundingbox {
+    background: #740e0e;
+    opacity: 0.6;
+    margin-top:10px;
+    margin-bottom:10px;
+    margin-left:10px;
+    margin-right:10px;
+    padding-top:5px;
+    padding-bottom:10px;
+    padding-left:25px;
+    padding-right:25px;
+}
