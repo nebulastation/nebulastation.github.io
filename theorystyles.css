@@ -4,4 +4,7 @@ body {
     font-family: 'Xanh Mono', monospace;
     color:rgb(111, 230, 164);
    }
-   
+
+body img{
+    max-width:20rem;
+}
