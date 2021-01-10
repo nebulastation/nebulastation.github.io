@@ -1,3 +1,12 @@
 body img{
-    max-height:40rem;
+    max-height:100%;;
+}
+
+.box {
+    overflow-x: scroll;
+    white-space:nowrap;
+}
+
+.inner {
+    display:inline-block;
 }
