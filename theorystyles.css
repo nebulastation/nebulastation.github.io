@@ -6,7 +6,7 @@ body {
    }
 
 body img{
-    max-height:50rem;
+    max-height:30rem;
 }
 
 .box {
@@ -15,5 +15,5 @@ body img{
 }
 
 .inner {
-    width: 6000px;
+    width: 600%;
 }
