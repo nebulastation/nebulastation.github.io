@@ -9,3 +9,11 @@ body {
 body img{
     max-height:50rem;
 }
+
+div {
+    width: 100%;
+}
+
+p {
+    width: 5000px;
+}
