@@ -26,8 +26,8 @@ body {
     
     .actionrecep{
         position:absolute;
-        left: 751px;
-        top: 435px;
+        left: 912px;
+        top: 300px;
         width: 31rem;
     }
     
@@ -43,6 +43,13 @@ body {
         left: 736px;
         top: 1532px;
         width: 37rem;
+    }
+
+    .bazaar{
+        position:absolute;
+        left: 100px;
+        top: 2000px;
+        width:36rem;
     }
 }
 

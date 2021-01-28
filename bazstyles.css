@@ -1,0 +1,12 @@
+body {
+    color:#0d4af0;
+}
+
+p {
+    font-family: 'Xanh Mono', monospace;
+    color:rgb(238, 16, 164);
+}
+
+a:hover {
+    color:rgb(14, 231, 79);
+}
