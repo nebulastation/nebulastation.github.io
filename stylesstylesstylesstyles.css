@@ -33,8 +33,8 @@ body {
     
     .soundtexmap{
         position:absolute;
-        left: 14px;
-        top: 1182px;
+        left: 262px;
+        top: 951px;
         width: 43rem;
     }
     
@@ -50,6 +50,13 @@ body {
         left: 1053px;
         top: 191px;
         width:18rem;
+    }
+
+    .floptree{
+        position:absolute;
+        left: 15px;
+        top: 1468px;
+        width:14rem;
     }
 }
 
