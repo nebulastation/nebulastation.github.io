@@ -2,6 +2,23 @@ body {
     background-color:rgb(43, 255, 0);
 }
 
+p {
+    font-family: 'Xanh Mono', monospace;
+    color:rgb(0, 0, 0);
+    text-align:center;
+}
+
+a:hover {
+    color:rgb(95, 29, 92);
+}
+
+.containers {
+    display:block;
+    width: 100%;
+    height:auto;
+    padding-top:1%;
+  }
+
 #myVideo {
     position: fixed;
     right: 0;
