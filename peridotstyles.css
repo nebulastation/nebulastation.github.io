@@ -8,6 +8,10 @@ body {
     background-color: #1c2512;
 }
 
+a hover{
+    background-color:green;
+}
+
 .box {
     overflow-x: scroll;
     white-space:nowrap;

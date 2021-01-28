@@ -5,6 +5,10 @@ body {
  color:rgb(111, 230, 164);
 }
 
+a hover{
+    background-color:rgb(60, 196, 121);
+}
+
 .boundingbox {
     background: #740e0e;
     opacity: 0.6;
