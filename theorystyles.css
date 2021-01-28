@@ -9,6 +9,10 @@ body img{
     max-height: 80vh;
 }
 
+a hover{
+    color:blanchedalmond;
+}
+
 .box {
     overflow-x: scroll;
     white-space:nowrap;
