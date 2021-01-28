@@ -33,10 +33,10 @@ a:hover {
   
   /* Original text overlay */
   .overlay-image .text {
-    color: #fff;
-    font-size: 30px;
+    font-family: 'Xanh Mono', monospace;
+    color: rgb(206, 2, 2);
+    font-size: 1.5rem;
     line-height: 1.5em;
-    text-shadow: 2px 2px 2px #000;
     text-align: center;
     position: absolute;
     top: 50%;
@@ -58,4 +58,5 @@ a:hover {
   /* New overlay appearance on hover */
   .overlay-image:hover .hover {
     opacity: 1;
+    background-color:rgb(159, 159, 246);
   }
