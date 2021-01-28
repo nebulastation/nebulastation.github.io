@@ -26,15 +26,15 @@ body {
     
     .actionrecep{
         position:absolute;
-        left: 912px;
-        top: 300px;
-        width: 31rem;
+        left: 717px;
+        top: 563px;
+        width: 27rem;
     }
     
     .soundtexmap{
         position:absolute;
-        left: 194px;
-        top: 1026px;
+        left: 14px;
+        top: 1182px;
         width: 47rem;
     }
     
@@ -47,9 +47,9 @@ body {
 
     .bazaar{
         position:absolute;
-        left: 100px;
-        top: 2000px;
-        width:28rem;
+        left: 747px;
+        top: 44px;
+        width:18rem;
     }
 }
 
