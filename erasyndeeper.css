@@ -114,3 +114,9 @@ hr{
     max-width: 3%;
     transform: translateX(1200%);
   }
+
+  .heading{
+    color: #310bdb;
+    font-family: 'Almendra Display', cursive;
+    font-size: 1.3rem;
+}
