@@ -19,22 +19,22 @@ body {
 @media (min-device-width: 768px){
     .guardianspirit {
         position:absolute;
-        left: 54px;
-        top: 268px;
+        left: 729px;
+        top: 259px;
         width: 30rem;
     }
     
     .actionrecep{
         position:absolute;
-        left: 717px;
-        top: 563px;
+        left: 968px;
+        top: 814px;
         width: 24rem;
     }
     
     .soundtexmap{
         position:absolute;
-        left: 262px;
-        top: 951px;
+        left: 167px;
+        top: 1029px;
         width: 40rem;
     }
     
@@ -47,15 +47,15 @@ body {
 
     .bazaar{
         position:absolute;
-        left: 1053px;
-        top: 191px;
+        left: 531px;
+        top: 736px;
         width:16rem;
     }
 
     .floptree{
         position:absolute;
-        left: 35px;
-        top: 1668px;
+        left: 73px;
+        top: 271px;
         width:27rem;
     }
 }
