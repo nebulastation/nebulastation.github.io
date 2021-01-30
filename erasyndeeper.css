@@ -120,3 +120,12 @@ hr{
     font-family: 'Almendra Display', cursive;
     font-size: 1.3rem;
 }
+
+.list{
+  font-size: 1rem;
+  font-weight: 400;
+  color: #4c797a;
+  font-family: 'VT323', monospace;
+  font-style: normal;
+  line-height: 1.3;
+}
