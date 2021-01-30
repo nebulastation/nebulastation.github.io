@@ -14,7 +14,7 @@ a{
 }
 
 a:hover {
-    color:rgb(95, 29, 92);
+    background-color:rgb(95, 29, 92);
 }
 
 .containers {
