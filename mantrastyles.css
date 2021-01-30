@@ -24,6 +24,10 @@ a:hover {
     padding-top:1%;
   }
 
+.poem{
+    font-size:4rem;
+}
+
 #myVideo {
     position: relative;
     right: 0;
