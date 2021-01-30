@@ -5,8 +5,12 @@ body {
 p {
     font-family: 'Xanh Mono', monospace;
     color:rgb(0, 0, 0);
-    text-align:center;
+    text-align:left;
     font-size: 10rem;
+}
+
+a{
+    text-decoration:none;
 }
 
 a:hover {
