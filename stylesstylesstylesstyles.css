@@ -19,22 +19,22 @@ body {
 @media (min-device-width: 768px){
     .guardianspirit {
         position:absolute;
-        left: 729px;
+        left: 865px;
         top: 311px;
         width: 30rem;
     }
     
     .actionrecep{
         position:absolute;
-        left: 968px;
+        left: 1043px;
         top: 814px;
         width: 24rem;
     }
     
     .soundtexmap{
         position:absolute;
-        left: 167px;
-        top: 1029px;
+        left: 93px;
+        top: 1207px;
         width: 40rem;
     }
     
