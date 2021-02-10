@@ -1,7 +1,7 @@
 body {
     background-color:#000000!important;
-    font-family: 'Xanh Mono', monospace;
-    color:rgb(238, 16, 164);
+    font-family: 'Xanh Mono', monospace!important;
+    color:rgb(238, 16, 164)!important;
 }
 
 p {
@@ -19,8 +19,4 @@ a:hover {
     width: 100%;
     height:auto;
     padding-top:1%;
-  }
-
-  div {
-      text-align:center;
   }
