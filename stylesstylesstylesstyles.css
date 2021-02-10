@@ -107,6 +107,9 @@ body {
     padding-bottom:4rem;
     padding-left:4rem;
     padding-right:4rem;
+}
+
+.body {
     font-size: 1.1rem;
     font-family: Arial, sans-serif;
 }
