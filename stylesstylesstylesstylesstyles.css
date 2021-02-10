@@ -37,6 +37,14 @@ body {
     text-decoration:none;
 }
 
+p a{
+    text-decoration:none;
+}
+
+a:hover {
+    background-color: #ee0a0a;
+  }
+  
 .center {
     display: block;
     margin: 0 auto;
