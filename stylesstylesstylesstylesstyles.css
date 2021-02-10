@@ -1,0 +1,59 @@
+.pageheading{
+    font-size:1rem;
+}
+
+.link{
+    background-color:aquamarine;
+    color:rgb(14, 19, 16);
+}
+
+.pageheading a:hover {
+    background-color: #40c592;
+}
+
+body {
+    font-family: 'Almendra Display', cursive;
+    background-color:black;
+}
+
+
+.story {
+    font-family: 'VT323', monospace;
+}
+
+.body {
+    font-size: 1.1rem;
+    font-family: Arial, sans-serif;
+    color:rgb(167, 230, 191);
+}
+
+.center {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .containers {
+    display:block;
+    width: 100%;
+    height:auto;
+    padding-top:1%;
+  }
+
+  .containers img {
+    position: fixed;
+    max-height:70%;
+    max-width: 18%;
+   /* transform: translateX(500%);*/
+  }
+
+  .caption{
+      color:rgb(206, 238, 200);
+      font-family: 'VT323', monospace;
+      font-size: 0.8rem;
+  }
+
+
+  .pdf{
+      text-align: center;
+      margin: auto;
+  }
