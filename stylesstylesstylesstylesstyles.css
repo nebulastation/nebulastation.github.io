@@ -21,12 +21,20 @@ body {
 
 .story {
     font-family: 'VT323', monospace;
-    color:rgb(150, 216, 175);
+    color:rgb(105, 187, 137);
+}
+
+.story a{
+    text-decoration:none;
 }
 
 .body {
     font-size: 1rem;
-    color:rgb(150, 216, 175);
+    color:rgb(105, 165, 128);
+}
+
+.body a{
+    text-decoration:none;
 }
 
 .center {
