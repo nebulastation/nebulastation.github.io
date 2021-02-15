@@ -21,6 +21,7 @@ body {
 
 .story {
     font-family: 'VT323', monospace;
+    font-size: 1.2rem;
     color:rgb(105, 187, 137);
 }
 
@@ -31,7 +32,7 @@ body {
 
 .body {
     font-size: 1.1rem;
-    color:rgb(105, 165, 128);
+    color:rgb(16, 143, 5);
 }
 
 .body a{
