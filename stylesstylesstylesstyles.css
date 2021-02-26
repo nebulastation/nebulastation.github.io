@@ -33,15 +33,15 @@ body {
     
     .soundtexmap{
         position:absolute;
-        left: 93px;
-        top: 1207px;
+        left: 829px;
+        top: 950px;
         width: 40rem;
     }
     
     .nanosuit{
         position:absolute;
-        left: 858px;
-        top: 1390px;
+        left: 599px;
+        top: 148px;
         width: 27rem;
     }
 
@@ -98,6 +98,11 @@ h1 {
     padding-bottom:10px;
     padding-left:25px;
     padding-right:25px;
+    z-index: -1;
+}
+
+.topbox{
+    z-index:0;
 }
 
 .boundingboxnarrow {
