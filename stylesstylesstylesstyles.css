@@ -13,21 +13,9 @@
 
 body {
     font-family: 'Almendra Display', cursive;
+    background-image: url("Images/creatureback.jpg");
 }
 
-.background {
-    background-image: url("Images/patternbw.jpg");
-    position: relative;
-}
-
-.layer {
-    background-color: rgba(0, 0, 0, 0.9);
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
 
 @media (min-device-width: 768px){
     .guardianspirit {
