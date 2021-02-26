@@ -78,6 +78,9 @@ body {
     }
 }
 
+h1 {
+    color:rgb(235, 255, 221);
+}
 
 .story {
     font-family: 'VT323', monospace;
