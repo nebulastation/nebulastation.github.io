@@ -81,10 +81,11 @@ body {
 
 .story {
     font-family: 'VT323', monospace;
+    color:rgb(235, 255, 221);
 }
 
 .boundingbox {
-    background: #9f8aac;
+    background: #000000;
     opacity: 0.9;
     margin-top:10px;
     margin-bottom:10px;
