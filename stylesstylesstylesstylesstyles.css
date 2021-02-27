@@ -38,6 +38,8 @@ body {
 .body {
     font-size: 1.1rem;
     color:rgb(25, 131, 15);
+    font-family: 'VT323', monospace;
+
 }
 
 .body a{
