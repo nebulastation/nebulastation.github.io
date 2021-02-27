@@ -90,6 +90,12 @@ h1 {
     color:rgb(152, 224, 176);
 }
 
+.links {
+    font-family: 'VT323', monospace;
+    color:rgb(152, 224, 176);
+    font-size:1.8rem;
+}
+
 .links a {
     text-decoration:none;
     background-color:rgb(43, 2, 180);
