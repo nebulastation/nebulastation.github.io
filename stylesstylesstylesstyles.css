@@ -90,6 +90,16 @@ h1 {
     color:rgb(152, 224, 176);
 }
 
+.links a {
+    text-decoration:none;
+    background-color:red;
+    color:inherit;
+}
+
+.links a:hover {
+    background-color:black;
+}
+
 .boundingbox {
     background: #000000;
     opacity: 0.9;
