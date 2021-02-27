@@ -104,6 +104,10 @@ h1 {
     background-color:black;
 }
 
+.linkhead{
+    font-size:3rem;
+}
+
 .boundingbox {
     background: #000000;
     opacity: 0.9;
