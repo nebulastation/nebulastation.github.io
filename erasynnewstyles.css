@@ -44,3 +44,7 @@ h1 {
 .imgmed {
     max-width: 50%;
 }
+
+.imgsml {
+    max-width: 35%;
+}
