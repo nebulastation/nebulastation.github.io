@@ -36,3 +36,7 @@ h1 {
     font-family: 'VT323', monospace;
     color:rgb(152, 224, 176);
 }
+
+.imgpart {
+    max-width: 20%;
+}
