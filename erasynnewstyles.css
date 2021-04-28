@@ -1,0 +1,30 @@
+body {
+    font-family: 'Almendra Display', cursive;
+    background-color: rgb(132, 190, 182);
+    background-attachment: fixed;
+}
+
+
+h1 {
+    color:rgb(72, 185, 129);
+    font-size:1.8rem;
+}
+
+.pageheading{
+    font-size:1rem;
+}
+
+.link{
+    background-color:aquamarine;
+    color:rgb(14, 19, 16);
+}
+
+.pageheading a:hover {
+    background-color: #40c592;
+}
+
+
+.story {
+    font-family: 'VT323', monospace;
+    color:rgb(152, 224, 176);
+}
