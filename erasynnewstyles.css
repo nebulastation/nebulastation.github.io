@@ -2,6 +2,8 @@ body {
     font-family: 'Almendra Display', cursive;
     background-color: rgb(132, 190, 182);
     background-attachment: fixed;
+    color: #0e2e2f;
+    font-family: Courier, "Courier New", monospace, Courier, Icons /*!System*/;
 }
 
 p {
@@ -15,7 +17,8 @@ p {
 
 h1 {
     color: #0e2e2f;
-    font-size:1.8rem;
+    font-size:2.4rem;
+    padding-top:25px;
 }
 
 .pageheading{
@@ -29,12 +32,6 @@ h1 {
 
 .pageheading a:hover {
     background-color: #40c592;
-}
-
-
-.story {
-    font-family: 'VT323', monospace;
-    color:rgb(152, 224, 176);
 }
 
 .imgpart {
