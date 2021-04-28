@@ -120,6 +120,11 @@ p {
     background: rgb(77, 96, 204);
 }
 
+#navvy0{
+    color:#113311;
+    background: rgb(145, 204, 77);
+}
+
 #ball{
     cursor: pointer;
 }
