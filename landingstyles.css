@@ -26,7 +26,10 @@ a:hover {
     margin-left: 150px;
 }
 
-.contact {
-    padding:0;
-    text-align:right;
+.about {
+    color:#69a397;
+}
+
+.about a:hover {
+    background-color: #310a38;
 }
