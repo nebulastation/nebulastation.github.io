@@ -40,3 +40,7 @@ h1 {
 .imgpart {
     max-width: 20%;
 }
+
+.imgmed {
+    max-width: 50%;
+}
