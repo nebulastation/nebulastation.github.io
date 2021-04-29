@@ -51,6 +51,10 @@ h1 {
     max-width: 35%;
 }
 
+.imgsml a {
+    text-decoration:none;
+}
+
 .imgsml a:hover {
     text-decoration:none;
 }
