@@ -1,0 +1,400 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="sentientstyles.css" media="all">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> 
+    <link href="https://fonts.googleapis.com/css2?family=Almendra+SC&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Xanh+Mono&display=swap" rel="stylesheet">
+    <title>Object Bazaar</title>
+  </head>
+
+<body> 
+      <script type="text/javascript">
+          // <![CDATA[
+          var colour="#FFFFFF";
+          var sparkles=120;
+          
+          /****************************
+          *  Tinkerbell Magic Sparkle *
+          * (c) 2005 mf2fm web-design *
+          *  http://www.mf2fm.com/rv  *
+          * DON'T EDIT BELOW THIS BOX *
+          ****************************/
+          var x=ox=400;
+          var y=oy=300;
+          var swide=800;
+          var shigh=600;
+          var sleft=sdown=0;
+          var tiny=new Array();
+          var star=new Array();
+          var starv=new Array();
+          var starx=new Array();
+          var stary=new Array();
+          var tinyx=new Array();
+          var tinyy=new Array();
+          var tinyv=new Array();
+          
+          window.onload=function() { if (document.getElementById) {
+            var i, rats, rlef, rdow;
+            for (var i=0; i<sparkles; i++) {
+              var rats=createDiv(3, 3);
+              rats.style.visibility="hidden";
+              document.body.appendChild(tiny[i]=rats);
+              starv[i]=0;
+              tinyv[i]=0;
+              var rats=createDiv(5, 5);
+              rats.style.backgroundColor="transparent";
+              rats.style.visibility="hidden";
+              var rlef=createDiv(1, 5);
+              var rdow=createDiv(5, 1);
+              rats.appendChild(rlef);
+              rats.appendChild(rdow);
+              rlef.style.top="2px";
+              rlef.style.left="0px";
+              rdow.style.top="0px";
+              rdow.style.left="2px";
+              document.body.appendChild(star[i]=rats);
+            }
+            set_width();
+            sparkle();
+          }}
+          
+          function sparkle() {
+            var c;
+            if (x!=ox || y!=oy) {
+              ox=x;
+              oy=y;
+              for (c=0; c<sparkles; c++) if (!starv[c]) {
+                star[c].style.left=(starx[c]=x)+"px";
+                star[c].style.top=(stary[c]=y)+"px";
+                star[c].style.clip="rect(0px, 5px, 5px, 0px)";
+                star[c].style.visibility="visible";
+                starv[c]=50;
+                break;
+              }
+            }
+            for (c=0; c<sparkles; c++) {
+              if (starv[c]) update_star(c);
+              if (tinyv[c]) update_tiny(c);
+            }
+            setTimeout("sparkle()", 40);
+          }
+          
+          function update_star(i) {
+            if (--starv[i]==25) star[i].style.clip="rect(1px, 4px, 4px, 1px)";
+            if (starv[i]) {
+              stary[i]+=1+Math.random()*3;
+              if (stary[i]<shigh+sdown) {
+                star[i].style.top=stary[i]+"px";
+                starx[i]+=(i%5-2)/5;
+                star[i].style.left=starx[i]+"px";
+              }
+              else {
+                star[i].style.visibility="hidden";
+                starv[i]=0;
+                return;
+              }
+            }
+            else {
+              tinyv[i]=50;
+              tiny[i].style.top=(tinyy[i]=stary[i])+"px";
+              tiny[i].style.left=(tinyx[i]=starx[i])+"px";
+              tiny[i].style.width="2px";
+              tiny[i].style.height="2px";
+              star[i].style.visibility="hidden";
+              tiny[i].style.visibility="visible"
+            }
+          }
+          
+          function update_tiny(i) {
+            if (--tinyv[i]==25) {
+              tiny[i].style.width="1px";
+              tiny[i].style.height="1px";
+            }
+            if (tinyv[i]) {
+              tinyy[i]+=1+Math.random()*3;
+              if (tinyy[i]<shigh+sdown) {
+                tiny[i].style.top=tinyy[i]+"px";
+                tinyx[i]+=(i%5-2)/5;
+                tiny[i].style.left=tinyx[i]+"px";
+              }
+              else {
+                tiny[i].style.visibility="hidden";
+                tinyv[i]=0;
+                return;
+              }
+            }
+            else tiny[i].style.visibility="hidden";
+          }
+          
+          document.onmousemove=mouse;
+          function mouse(e) {
+            set_scroll();
+            y=(e)?e.pageY:event.y+sdown;
+            x=(e)?e.pageX:event.x+sleft;
+          }
+          
+          function set_scroll() {
+            if (typeof(self.pageYOffset)=="number") {
+              sdown=self.pageYOffset;
+              sleft=self.pageXOffset;
+            }
+            else if (document.body.scrollTop || document.body.scrollLeft) {
+              sdown=document.body.scrollTop;
+              sleft=document.body.scrollLeft;
+            }
+            else if (document.documentElement && (document.documentElement.scrollTop || document.documentElement.scrollLeft)) {
+              sleft=document.documentElement.scrollLeft;
+              sdown=document.documentElement.scrollTop;
+            }
+            else {
+              sdown=0;
+              sleft=0;
+            }
+          }
+          
+          window.onresize=set_width;
+          function set_width() {
+            if (typeof(self.innerWidth)=="number") {
+              swide=self.innerWidth;
+              shigh=self.innerHeight;
+            }
+            else if (document.documentElement && document.documentElement.clientWidth) {
+              swide=document.documentElement.clientWidth;
+              shigh=document.documentElement.clientHeight;
+            }
+            else if (document.body.clientWidth) {
+              swide=document.body.clientWidth;
+              shigh=document.body.clientHeight;
+            }
+          }
+          
+          function createDiv(height, width) {
+            var div=document.createElement("div");
+            div.style.position="absolute";
+            div.style.height=height+"px";
+            div.style.width=width+"px";
+            div.style.overflow="hidden";
+            div.style.backgroundColor=colour;
+            return (div);
+          }
+          // ]]>
+          </script>
+
+<div class="containers"><a href="index.html"><img src="Images/staricon2.png" width="10%" alt="main page"></a></div>
+
+<div class="row">
+    <div class="col-xs-12 col-md-4 col-lg-4">    
+    </div>
+    <div class="col-xs-12 col-md-4 col-lg-4">
+        <img src="Images/bazaar1.png" width="100%">
+    </div>
+    <div class="col-xs-12 col-md-4 col-lg-4">
+    </div>
+</div>
+
+<p>Welcome ye to the Object Bazaar!<br>
+These objects, handmade over several years, have appeared in exhibitions, performances, and gift exchanges.</p>
+<p class="pageheading"><a href = "index.html">Transport to NEBULA</a></p>
+<br>
+
+<div class="row">
+    <div class="col-xs-12 col-md-3 col-lg-3">
+        <div class="overlay-image">
+            <a href="Images/bazaar2.jpg"><img class="image" src="Images/bazaar2.jpg" width="100%"></a>
+            <div class="hover">
+                <div class="text">Butterfly plate<br>Glazed ceramic<br>11 x 11"<br>Made at Chautauqua School of Art, 2019</div>
+            </div>
+        </div>
+    </div>
+    <div class="col-xs-12 col-md-3 col-lg-3">
+        <div class="overlay-image">
+          <a href="Images/bazaar3.jpg"> <img class="image" src="Images/bazaar3.jpg" width="100%"></a>
+          <div class="hover">
+            <div class="text">Basket<br>Handwoven black ash with sumi ink stain<br>16 x 16 x 16"<br>Made at Penland School of Craft, 2018</div>
+          </div>
+         </div>
+    </div>
+    <div class="col-xs-12 col-md-3 col-lg-3">
+        <div class="overlay-image">
+          <a href="Images/bazaar4.jpg"> <img class="image" src="Images/bazaar4.jpg" width="100%"></a>
+            <div class="hover">
+                <div class="text">Candleholder<br>Glazed ceramic<br>7.5 x 3.75 x 6"<br>Made at Chautauqua School of Art, 2019<br>Exhibited in <a href="page-lnr.html"><em>Lover/no reason</em></a> in 2020.</a></div>
+            </div>
+        </div>
+    </div>
+    <div class="col-xs-12 col-md-3 col-lg-3">
+        <div class="overlay-image">
+          <a href="Images/bazaar5.jpg"> <img class="image" src="Images/bazaar5.jpg" width="100%"></a>
+            <div class="hover">
+                 <div class="text">Cereal bowl with legs<br>Glazed ceramic<br>6.5 x 4 x 9"<br>Made at Chautauqua School of Art, 2019</div>
+             </div>
+            </div>
+    </div>
+ </div>
+<br>
+<div class="row">
+    <div class="col-xs-12 col-md-3 col-lg-3">
+        <div class="overlay-image">
+          <a href="Images/bazaar6.jpg"> <img class="image" src="Images/bazaar6.jpg" width="100%"></a>
+             <div class="hover">
+                  <div class="text">Spirit II<br>Oil on canvas board<br>10.75 x 14"<br>Made at Ox-Bow School of Art, 2018<br>Featured in <a href="page-psi.html"><em>Pleione Shall I?</em></a></div>
+               </div>
+       </div>
+    </div>
+    <div class="col-xs-12 col-md-3 col-lg-3">
+        <div class="overlay-image">
+          <a href="Images/bazaar7.jpg"> <img class="image" src="Images/bazaar7.jpg" width="100%"></a>
+              <div class="hover">
+                   <div class="text">Egghead<br>Glazed ceramic<br>4.5 x 4 x 4"<br>Made at Chautauqua School of Art, 2019<br>Exhibited in <a href="page-lnr.html"><em> Lover/no reason</em></a> in 2020.</div>
+             </div>
+         </div>
+    </div>
+    <div class="col-xs-12 col-md-3 col-lg-3">
+        <div class="overlay-image">
+          <a href="Images/bazaar8.jpg"> <img class="image" src="Images/bazaar8.jpg" width="100%"></a>
+             <div class="hover">
+                   <div class="text">Yellow Flame<br>Oil, pen, pastel on panel<br>8.5 x 6"<br>2018</div>
+          </div>
+        </div>
+    </div>
+    <div class="col-xs-12 col-md-3 col-lg-3">
+        <div class="overlay-image">
+          <a href="Images/bazaar9.jpg"> <img class="image" src="Images/bazaar9.jpg" width="100%"></a>
+             <div class="hover">
+                  <div class="text">Spirit III<br>Oil on canvas board<br>12 x 16"<br>Made at Ox-Bow School of Art, 2018<br>Featured in <a href="page-psi.html"><em> Pleione Shall I?</em></a></div>
+              </div>
+          </div>
+ </div>
+ </div>
+<br>
+<div class="row">
+    <div class="col-xs-12 col-md-3 col-lg-3">
+        <div class="overlay-image">
+          <a href="Images/bazaar10.jpg"> <img class="image" src="Images/bazaar10.jpg" width="100%"></a>
+        <div class="hover">
+            <div class="text">Lilt<br>Oil on canvas<br>9 x 12"<br>2018</div>
+         </div>
+         </div>
+    </div>
+    <div class="col-xs-12 col-md-3 col-lg-3">
+        <div class="overlay-image">
+          <a href="Images/bazaar11.jpg"> <img class="image" src="Images/bazaar11.jpg" width="100%"></a>
+             <div class="hover">
+            <div class="text">Snack tree<br>Glazed ceramic<br>8 x 5 x 10.75"<br>Made at Chautauqua School of Art, 2019</div>
+         </div>
+      </div>
+    </div>
+    <div class="col-xs-12 col-md-3 col-lg-3">
+        <div class="overlay-image">
+          <a href="Images/bazaar12.jpg"> <img class="image" src="Images/bazaar12.jpg" width="100%"></a>
+          <div class="hover">
+            <div class="text">Spirit I<br>Oil on canvas board<br>12 x 16"<br>Made at Ox-Bow School of Art, 2018<br>Featured in <a href="page-psi.html"><em> Pleione Shall I?</em></a></div>
+         </div>
+      </div>
+    </div>
+    <div class="col-xs-12 col-md-3 col-lg-3">
+        <div class="overlay-image">
+          <a href="Images/bazaar13.jpg"> <img class="image" src="Images/bazaar13.jpg" width="100%"></a>
+          <div class="hover">
+            <div class="text">Threeleg<br>Glazed ceramic<br>8.5 x 3 x 6"<br>Made at Chautauqua School of Art, 2019</div>
+      </div>
+    </div>
+ </div>
+ </div>
+<br>
+<div class="row">
+    <div class="col-xs-12 col-md-3 col-lg-3">
+        <div class="overlay-image">
+          <a href="Images/bazaar14.jpg"> <img class="image" src="Images/bazaar14.jpg" width="100%"></a>
+         <div class="hover">
+            <div class="text">Girl's theme, variation A<br>Etching on silk<br>plate 7.25 x 14", piece 10.5 x 14"<br>2019<br>Exhibited in <a href="page-gtp.html"><em> GOODBYE TO PICTURES</em></a> in 2019.</div>
+      </div>
+    </div>
+    </div>
+    <div class="col-xs-12 col-md-3 col-lg-3">
+        <div class="overlay-image">
+          <a href="Images/bazaar15.jpg"> <img class="image" src="Images/bazaar15.jpg" width="100%"></a>
+               <div class="hover">
+                 <div class="text">Girl's theme, variation E<br>Etching on silk<br>plate 7.25 x 14", piece 10.25 x 12.25"<br>2019<br>Exhibited in <a href="page-gtp.html"><em> GOODBYE TO PICTURES</em></a> in 2019.</div>
+             </div>
+         </div>
+    </div>
+    <div class="col-xs-12 col-md-3 col-lg-3">
+        <div class="overlay-image">
+          <a href="Images/bazaar16.jpg"> <img class="image" src="Images/bazaar16.jpg" width="100%"></a>
+             <div class="hover">
+              <div class="text">Welcome mat<br>Handsewn textile<br>23.5 x 16.5"<br>2019<br>Exhibited in <a href="page-gtp.html"><em> GOODBYE TO PICTURES</em></a> in 2019.</div>
+             </div>
+        </div>
+    </div>
+    <div class="col-xs-12 col-md-3 col-lg-3">
+        <div class="overlay-image">
+          <a href="Images/bazaar17.jpg"> <img class="image" src="Images/bazaar17.jpg" width="100%"></a>
+              <div class="hover">
+               <div class="text">Girl's theme, variation F<br>Etching on silk<br>plate 17 x 17", piece 21 x 21"<br>2019<br>Exhibited in <a href="page-gtp.html"><em> GOODBYE TO PICTURES</em></a> in 2019.</div>
+              </div>
+         </div>
+    </div>
+ </div>
+<br>
+<div class="row">
+    <div class="col-xs-12 col-md-3 col-lg-3">
+        <div class="overlay-image">
+          <a href="Images/Mobile1.jpg"> <img class="image" src="Images/Mobile1.jpg" width="100%"></a>
+         <div class="hover">
+            <div class="text">mountainside<br>Weaving<br>6 x 11.5"<br>2020</div>
+      </div>
+    </div>
+    </div>
+    <div class="col-xs-12 col-md-3 col-lg-3">
+        <div class="overlay-image">
+          <a href="Images/Mobile4.jpg"> <img class="image" src="Images/Mobile4.jpg" width="100%"></a>
+               <div class="hover">
+                 <div class="text">Phone<br>Sewn fabric over chicken wire<br>4 x 4.5 x 11"<br>2019<br>Featured in <a href="eraTwo.html#upto"><em>Up to our then and now</em></a> in 2020.</div>
+             </div>
+         </div>
+    </div>
+    <div class="col-xs-12 col-md-3 col-lg-3">
+        <div class="overlay-image">
+          <a href="Images/Mobile3.jpg">  <img class="image" src="Images/Mobile3.jpg" width="100%"></a>
+             <div class="hover">
+              <div class="text">moonwalk<br>Weaving<br>6 x 11"<br>2020</div>
+             </div>
+        </div>
+    </div>
+    <div class="col-xs-12 col-md-3 col-lg-3">
+        <div class="overlay-image">
+          <a href="Images/Mobile5.jpg"> <img class="image" src="Images/Mobile5.jpg" width="100%"></a>
+              <div class="hover">
+               <div class="text">Cup with 2 handles<br>Glazed ceramic<br>6 x 3 x 4"<br>Made at Chautauqua School of Art in 2019</div>
+              </div>
+         </div>
+    </div>
+ </div>
+ <br>
+ <div class="row">
+     <div class="col-xs-12 col-md-3 col-lg-3">
+         <div class="overlay-image">
+          <a href="Images/Mobile4.jpg">  <img class="image" src="Images/Mobile2.jpg" width="100%"></a>
+          <div class="hover">
+             <div class="text">stargaze river<br>Weaving<br>6.5 x 9.5"<br>2020</div>
+       </div>
+     </div>
+     </div>
+     <div class="col-xs-12 col-md-3 col-lg-3">
+
+     </div>
+     <div class="col-xs-12 col-md-3 col-lg-3">
+
+     </div>
+     <div class="col-xs-12 col-md-3 col-lg-3">
+
+     </div>
+  </div>
+</body>
+</html>
