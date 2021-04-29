@@ -4,6 +4,7 @@ body {
     background-attachment: fixed;
     color: #0e2e2f;
     font-family: Courier, "Courier New", monospace, Courier, Icons /*!System*/;
+    font-size: 0.8rem;
 }
 
 p {
