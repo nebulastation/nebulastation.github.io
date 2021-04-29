@@ -42,8 +42,16 @@ h1 {
     max-width: 50%;
 }
 
+.imgmed a:hover {
+    text-decoration:none;
+}
+
 .imgsml {
     max-width: 35%;
+}
+
+.imgsml a:hover {
+    text-decoration:none;
 }
 
 .row {
