@@ -1,0 +1,111 @@
+.container-fluid{
+    max-width: 1170px;
+}
+
+body {
+    background: rgb(187,224,201) !important;
+    background: radial-gradient(circle, #bbe0c9 27%, rgb(233, 96, 55) 60%, rgba(211,158,23,1) 100%) !important;
+    font-family: 'Fondamento', cursive !important;
+    color: #250c30 !important;
+    background-attachment: fixed !important;
+}
+
+h2 {
+    font-family: 'Arial', sans serif;
+    padding-top: 20px;
+}
+
+h1 {
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+hr{
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(12, 169, 0, 0.5) 60%, rgba(255,255,255,0) 0%);
+    background-position: bottom;
+    background-size: 6px 1px;
+    background-repeat: repeat-x;
+    border: none;
+    margin-left:0;
+    color:#113311;
+}
+
+.column{
+    float: left;
+}
+
+.header{
+    font-family: 'Chakra Petch', sans-serif;    
+    font-size: 77px;
+    background-image: -webkit-linear-gradient(92deg, #f35626, #feab3a);
+	background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+	-webkit-text-fill-color: transparent;
+    -webkit-animation: hue 10s infinite linear;
+    animation: hue 10s infinite linear;
+    padding-top: 0px;
+    padding-bottom: 10px;
+}
+
+.captions{
+    font-size:0.7rem;
+}
+
+.centered{
+    text-align:center;
+}
+
+.row{
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+.row-pix{
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+
+.video{
+    text-align: center;
+    margin: auto;
+}
+
+#wordplay{
+    margin: 0 auto;
+    text-align:center;
+}
+
+a {
+    color:#113311;
+    text-decoration: none;
+}
+
+.pageheading a:hover {
+    text-decoration: none;
+    background-color: #29F044 !important;
+}
+
+p {
+    font-family: 'Chakra Petch', sans-serif;    
+    color:#113311;
+    text-decoration: none;
+}
+
+#story {
+    font-family: 'Chakra Petch', sans-serif;    
+    font-size: 0.9rem;
+    font-weight:lighter;
+    color: #250c30
+}
+
+#navvy{
+    color:#113311;
+    background: rgb(77, 96, 204);
+}
+
+#navvy0{
+    color:#113311;
+    background: rgb(145, 204, 77);
+}
