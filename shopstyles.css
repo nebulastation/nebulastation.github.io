@@ -1,0 +1,73 @@
+body {
+    font-family: 'Almendra Display', cursive;
+    background-color: rgb(176, 233, 204);
+    background-attachment: fixed;
+    color: #0e2e2f;
+    font-family: Courier, "Courier New", monospace, Courier, Icons /*!System*/;
+    font-size: 0.8rem;
+}
+
+p {
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: #0e2e2f;
+    font-family: Courier, "Courier New", monospace, Courier, Icons /*!System*/;
+    font-style: normal;
+}
+
+h1 {
+    font-family: 'Almendra Display', cursive;
+    color: #0e2e2f;
+    font-size:2.4rem;
+    padding-top:25px;
+}
+
+.pageheading{
+    font-size:1rem;
+}
+
+.link{
+    background-color:aquamarine;
+    color:rgb(14, 19, 16);
+}
+
+.pageheading a:hover {
+    background-color: #40c592;
+}
+
+.imgpart {
+    max-width: 18%;
+}
+
+.imgmed {
+    max-width: 50%;
+}
+
+.imgmed a:hover {
+    text-decoration:none;
+}
+
+.imgsml {
+    max-width: 35%;
+}
+
+.imgsml a {
+    text-decoration:none;
+}
+
+.imgsml a:hover {
+    text-decoration:none;
+}
+
+.row {
+    padding-right: 0px;
+    margin-right: 0px;
+  }
+
+
+  .containers {
+    display:block;
+    width: 97%;
+    height:auto;
+    padding-top:1%;
+  }
