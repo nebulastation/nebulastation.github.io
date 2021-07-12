@@ -14,210 +14,75 @@
 
 <body> 
 <div>
-    Small batch handmade goods available for sale. Contact me at nebulastation0000 [at] gmail.com with any questions!
+    Small batch handmade goods available for sale. Write me at nebulastation0000 [at] gmail.com or DM me on IG @theempress_con to purchase.<br>
+    Currently in market: 6-piece watercolor series, entitled <em>of a flower</em>, inspired by a flower in a vase at home.
 </div>
-    <div id='product-component-1626131039550'></div>
-    <script type="text/javascript">
-    /*<![CDATA[*/
-    (function () {
-      var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
-      if (window.ShopifyBuy) {
-        if (window.ShopifyBuy.UI) {
-          ShopifyBuyInit();
-        } else {
-          loadScript();
-        }
-      } else {
-        loadScript();
-      }
-      function loadScript() {
-        var script = document.createElement('script');
-        script.async = true;
-        script.src = scriptURL;
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
-        script.onload = ShopifyBuyInit;
-      }
-      function ShopifyBuyInit() {
-        var client = ShopifyBuy.buildClient({
-          domain: 'empress-digs.myshopify.com',
-          storefrontAccessToken: '6d004fcea5b6457395814f2f830e4067',
-        });
-        ShopifyBuy.UI.onReady(client).then(function (ui) {
-          ui.createComponent('product', {
-            id: '6830784938173',
-            node: document.getElementById('product-component-1626131039550'),
-            moneyFormat: '%24%7B%7Bamount%7D%7D',
-            options: {
-      "product": {
-        "styles": {
-          "product": {
-            "@media (min-width: 601px)": {
-              "max-width": "100%",
-              "margin-left": "0",
-              "margin-bottom": "50px"
-            },
-            "text-align": "left"
-          },
-          "title": {
-            "font-size": "26px"
-          },
-          "button": {
-            "font-family": "Garamond, serif",
-            "color": "#63e9b7",
-            ":hover": {
-              "color": "#63e9b7",
-              "background-color": "#000000"
-            },
-            "background-color": "#000000",
-            ":focus": {
-              "background-color": "#000000"
-            },
-            "border-radius": "0px",
-            "padding-left": "22px",
-            "padding-right": "22px"
-          },
-          "price": {
-            "font-size": "18px"
-          },
-          "compareAt": {
-            "font-size": "15.299999999999999px"
-          },
-          "unitPrice": {
-            "font-size": "15.299999999999999px"
-          }
-        },
-        "buttonDestination": "checkout",
-        "layout": "horizontal",
-        "contents": {
-          "img": false,
-          "imgWithCarousel": true,
-          "description": true
-        },
-        "width": "100%",
-        "text": {
-          "button": "Buy now"
-        }
-      },
-      "productSet": {
-        "styles": {
-          "products": {
-            "@media (min-width: 601px)": {
-              "margin-left": "-20px"
-            }
-          }
-        }
-      },
-      "modalProduct": {
-        "contents": {
-          "img": false,
-          "imgWithCarousel": true,
-          "button": false,
-          "buttonWithQuantity": true
-        },
-        "styles": {
-          "product": {
-            "@media (min-width: 601px)": {
-              "max-width": "100%",
-              "margin-left": "0px",
-              "margin-bottom": "0px"
-            }
-          },
-          "button": {
-            "font-family": "Garamond, serif",
-            "color": "#63e9b7",
-            ":hover": {
-              "color": "#63e9b7",
-              "background-color": "#000000"
-            },
-            "background-color": "#000000",
-            ":focus": {
-              "background-color": "#000000"
-            },
-            "border-radius": "0px",
-            "padding-left": "22px",
-            "padding-right": "22px"
-          },
-          "title": {
-            "font-family": "Helvetica Neue, sans-serif",
-            "font-weight": "bold",
-            "font-size": "26px",
-            "color": "#4c4c4c"
-          },
-          "price": {
-            "font-family": "Helvetica Neue, sans-serif",
-            "font-weight": "normal",
-            "font-size": "18px",
-            "color": "#4c4c4c"
-          },
-          "compareAt": {
-            "font-family": "Helvetica Neue, sans-serif",
-            "font-weight": "normal",
-            "font-size": "15.299999999999999px",
-            "color": "#4c4c4c"
-          },
-          "unitPrice": {
-            "font-family": "Helvetica Neue, sans-serif",
-            "font-weight": "normal",
-            "font-size": "15.299999999999999px",
-            "color": "#4c4c4c"
-          }
-        },
-        "text": {
-          "button": "Add to cart"
-        }
-      },
-      "option": {},
-      "cart": {
-        "styles": {
-          "button": {
-            "font-family": "Garamond, serif",
-            "color": "#63e9b7",
-            ":hover": {
-              "color": "#63e9b7",
-              "background-color": "#000000"
-            },
-            "background-color": "#000000",
-            ":focus": {
-              "background-color": "#000000"
-            },
-            "border-radius": "0px"
-          }
-        },
-        "text": {
-          "total": "Subtotal",
-          "button": "Checkout"
-        }
-      },
-      "toggle": {
-        "styles": {
-          "toggle": {
-            "font-family": "Garamond, serif",
-            "background-color": "#000000",
-            ":hover": {
-              "background-color": "#000000"
-            },
-            ":focus": {
-              "background-color": "#000000"
-            }
-          },
-          "count": {
-            "color": "#63e9b7",
-            ":hover": {
-              "color": "#63e9b7"
-            }
-          },
-          "iconPath": {
-            "fill": "#63e9b7"
-          }
-        }
-      }
-    },
-          });
-        });
-      }
-    })();
-    /*]]>*/
-    </script>
+    <div>
+        <img src="Images/Product1.jpg">
+            <p>
+                <em>of a flower, A</em><br>
+                Watercolor on paper<br>
+                Dimensions <br>
+                2021<br>
+                $120.00<br>
+            </p>
+    </div>
+
+    <div>
+        <img src="Images/Product2.jpg">
+            <p>
+                <em>of a flower, B</em><br>
+                Watercolor on paper<br>
+                Dimensions <br>
+                2021<br>
+                $75.00<br>
+            </p>
+    </div>
+
+    <div>
+        <img src="Images/Product3.jpg">
+            <p>
+                <em>of a flower, C</em><br>
+                Watercolor on paper<br>
+                Dimensions <br>
+                2021<br>
+                $160.00<br>
+            </p>
+    </div>
+
+    <div>
+        <img src="Images/Product4.jpg">
+            <p>
+                <em>of a flower, D</em><br>
+                Watercolor on paper<br>
+                Dimensions <br>
+                2021<br>
+                $75.00<br>
+            </p>
+    </div>
+
+    <div>
+        <img src="Images/Product5.jpg">
+            <p>
+                <em>of a flower, E</em><br>
+                Watercolor on paper<br>
+                Dimensions <br>
+                2021<br>
+                $75.00<br>
+            </p>
+    </div>
+
+    <div>
+        <img src="Images/Product6.jpg">
+            <p>
+                <em>of a flower, F</em><br>
+                Watercolor on paper<br>
+                Dimensions <br>
+                2021<br>
+                $280.00<br>
+            </p>
+    </div>
+
 </body>
 
 </html>
