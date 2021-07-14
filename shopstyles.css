@@ -1,11 +1,9 @@
 body {
-    font-family: 'Almendra Display', cursive;
     background-color: rgb(176, 233, 204)!important;
     background-attachment: fixed;
     color: #0e2e2f;
     font-family: Courier, "Courier New", monospace, Courier, Icons /*!System*/;
     font-size: 0.8rem;
-    margin: 15px;
 }
 
 p {
@@ -17,14 +15,18 @@ p {
 }
 
 h1 {
-    font-family: 'Almendra Display', cursive;
+    font-family: 'Times New Roman', Times, serif;
     color: #0e2e2f;
-    font-size:2.4rem;
+    font-size:1.5rem;
     padding-top:25px;
 }
 
 .pageheading{
     font-size:1rem;
+}
+
+.box {
+    margin: 15px;
 }
 
 .link{
