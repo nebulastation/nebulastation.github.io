@@ -22,13 +22,12 @@ h1 {
 }
 
 a {
-    color:#0e2e2f;
+    color:inherit;
     text-decoration: none;
-    font-family: Courier, "Courier New", monospace, Courier, Icons /*!System*/;
 }
 
 a:hover {
-    text-decoration:none;
+    background-color: #00ffcc;
 }
 
 .pageheading{
