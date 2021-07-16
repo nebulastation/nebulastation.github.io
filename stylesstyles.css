@@ -3,7 +3,7 @@
     overflow: hidden;
     height:100%;
     -ms-overflow-style: none; 
-    scrollbar-width: none; 
+    scrollbar-width: thin; 
   }
   
   @media (min-device-width: 768px){
