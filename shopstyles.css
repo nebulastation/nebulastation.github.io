@@ -39,12 +39,6 @@ a:hover {
     margin: 15px;
 }
 
-.link{
-    background-color:aquamarine;
-    color:rgb(14, 19, 16);
-    font-family: Courier, "Courier New", monospace, Courier, Icons /*!System*/;
-    font-style: normal;
-}
 
 .pageheading a:hover {
     background-color: #40c592;
