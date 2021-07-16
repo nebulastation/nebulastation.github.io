@@ -22,13 +22,13 @@ h1 {
 }
 
 a {
-    text-decoration: none;
+    text-decoration: none!important;
     font-family: 'Times New Roman', Times, serif;
     font-style: normal;
 }
 
 a:hover {
-    text-decoration:none;
+    text-decoration:none!important;
 }
 
 .pageheading{
