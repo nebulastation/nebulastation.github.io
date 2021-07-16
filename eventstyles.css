@@ -1,9 +1,9 @@
 body {
     background: rgb(2,46,28);
     background: linear-gradient(0deg, rgba(2,46,28,1) 0%, rgba(19,72,108,1) 100%);
-    font-family: 'Cormorant Garamond', serif;
-    color: #0000AA;
-    font-size: 5rem;
+    font-family: 'Times New Roman', Times, serif;
+    color: #090975;
+    font-size: 4rem;
 }
 
 a {
