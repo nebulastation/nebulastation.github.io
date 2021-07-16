@@ -3,13 +3,13 @@ body {
     background-attachment: fixed;
     color: #96da81;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 0.8rem;
+    font-size: 1rem;
 }
 
 p {
-    font-size: 0.8rem;
+    font-size: 1rem;
     font-weight: 400;
-    color: #0e2e2f;
+    color: #91ca6c;
     font-family: 'Times New Roman', Times, serif;
     font-style: normal;
 }
