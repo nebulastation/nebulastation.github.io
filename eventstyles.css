@@ -1,7 +1,7 @@
 body {
     background: rgb(2,46,28);
     background: linear-gradient(0deg, rgba(2,46,28,1) 0%, rgba(19,72,108,1) 100%);
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Cormorant Garamond', serif;
     color: #090975;
     font-size: 4rem;
 }
@@ -13,6 +13,10 @@ a {
 
 a:hover {
     background-color: #93FF10 !important;
+}
+
+.pageheading a{
+    font-size:2rem;
 }
 
 .pageheading a:hover {
