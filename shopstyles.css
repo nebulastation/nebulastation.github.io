@@ -29,6 +29,7 @@ a {
 
 a:hover {
     background-color: #00ffcc;
+    text-decoration:none!important;
 }
 
 .pageheading{
