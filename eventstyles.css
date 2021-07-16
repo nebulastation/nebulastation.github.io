@@ -17,6 +17,7 @@ a:hover {
 
 .pageheading a:hover {
     background-color: #93FF10 !important;
+    font-size:2rem;
 }
 
 #myVideo {
